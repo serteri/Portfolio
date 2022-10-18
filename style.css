@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  margin-top: 1rem;
+}
+.logo {
+  width: 3rem;
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  margin: 0;
+  justify-content: space-around;
+}
+li {
+  margin: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #f4ba0d;
+}
+a:hover {
+  color: #d31669;
+}
