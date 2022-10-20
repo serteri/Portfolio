@@ -3,21 +3,37 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-image: url(./images/coding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+/* Nav- bar */
 nav {
   display: flex;
   margin-top: 1rem;
 }
 .logo {
-  width: 3rem;
   margin-right: auto;
   margin-left: 2rem;
 }
-
+.logo-name {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.firstLetter {
+  font-size: 2em;
+  color: #d31669;
+  font-weight: 800;
+}
+.nav-lists {
+  width: 40%;
+}
 .nav-list {
   list-style-type: none;
   display: flex;
-  align-items: center;
   padding: 0.5em;
   margin: 0;
   justify-content: space-around;
@@ -32,4 +48,50 @@ a {
 }
 a:hover {
   color: #d31669;
+}
+/* Main section */
+
+main {
+  width: 50%;
+  height: 80%;
+  margin: 9rem;
+}
+
+.contactMe {
+  margin-top: 3rem;
+  width: 50%;
+  text-align: center;
+}
+#salute {
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+}
+#firstSalute {
+  font-size: 3rem;
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+#info {
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  .nav-lists {
+    width: 70%;
+  }
+  .nav-list li {
+    font-size: 0.92em;
+  }
+
+  .logo-name {
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .firstLetter {
+    font-size: 1.1em;
+    color: #d31669;
+    font-weight: 300;
+  }
 }

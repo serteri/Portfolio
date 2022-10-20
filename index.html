@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;0,900;1,100;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"></link>
         <title>Serter's Portfolio</title>
     </head>
@@ -12,23 +15,42 @@
         <section class="nav-bar">
             <nav>
                 <div class="logo">
-                    <img class="logo" src="./images/serter.jpg">
+                    <a class="logo-name" href="./">
+                        <span class="firstLetter">S</span>
+                        erter
+                        <span class="firstLetter">I</span>
+                        yigunlu
+                    </a>
                 </div>
-                <ul class="nav-list">
-                    <li>
-                        <a href="./">Home</a>
-                    </li>
-                    <li>
-                        <a href="aboutMe.html" target="_blank">  About Me</a>
-                    </li>
-                    <li>
-                        <a href="myExperience.html" target="_blank">My Experience</a>
-                    </li>
-                    <li>
-                        <a href="contactMe.html" target="_blank">Contact me</a>
-                    </li>
-                </ul>
+                <div class="nav-lists">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutMe.html" target="_blank"> About Me</a>
+                        </li>
+                        <li>
+                            <a href="myExperience.html" target="_blank">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contactMe.html" target="_blank">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </section>
+        <main>
+            <div class="contactMe">
+                <h3 id="salute">
+                    <span id="firstSalute">Hello,</span>
+                    <br>
+                    My Name is
+                    <i id="name">Serter Iyigunlu</i>
+                </h3>
+                <p id="info">If you want to contact me for all website solutions,please click the button below!</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+        </main>
     </body>
 </html>
