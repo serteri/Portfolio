@@ -4,4 +4,4 @@
 
 ### Web site progress as shown
 
-1. ![Web site screenshot](./screenshots/first.png)
+![Web site screenshot](./screenshots/first.png)
