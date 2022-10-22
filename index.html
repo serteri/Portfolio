@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;0,900;1,100;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"></link>
+        <script src="https://kit.fontawesome.com/7d9ea28026.js" crossorigin="anonymous"></script>
         <title>Serter's Portfolio</title>
     </head>
     <body>
@@ -40,7 +41,8 @@
                 </div>
             </nav>
         </section>
-        <main>
+        <!--Main Section-->
+        <main class="main-content">
             <div class="contactMe">
                 <h3 id="salute">
                     <span id="firstSalute">Hello,</span>
@@ -48,9 +50,60 @@
                     My Name is
                     <i id="name">Serter Iyigunlu</i>
                 </h3>
-                <p id="info">If you want to contact me for all website solutions,please click the button below!</p>
-                <button class="btn">Contact Me!</button>
+                <p id="info">To see My Portfolio please click below</p>
+                <button class="btn" type="button" onclick="location.href ='./myExperience.html'">
+                    Contact Me!
+                </button>
+            </div>
+            <div class="signUp">
+                <h2 class="join-list">Join our newsletter</h2>
+                <form id="form-signUp">
+                    <div class="form-elements">
+                        <label for="first-name" class="select">
+                            First Name:
+                        </label>
+                        <input
+                            type="text"
+                            name="fist-name"
+                            id="first-name"
+                            placeholder="First Name"
+                            class="select-input"
+                            size="9"
+                        >
+                    </div>
+                    <div class="form-elements">
+                        <label for="last-name" class="select">
+                            Last Name:
+                        </label>
+                        <input
+                            type="text"
+                            name="last-name"
+                            id="last-name"
+                            placeholder="Last Name"
+                            class="select-input"
+                            size="9"
+                        >
+                    </div>
+                    <div class="form-elements">
+                        <label for="email" class="select">
+                            Email address:
+                        </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email address"
+                            class="select-input"
+                            size="9"
+                        >
+                    </div>
+                </form>
             </div>
         </main>
+        <!--Footer Section-->
+        <footer>
+            <i class="fa-brands fa-facebook icons"></i>
+            <i class="fa-brands fa-twitter icons"></i>
+        </footer>
     </body>
 </html>
