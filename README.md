@@ -1,4 +1,6 @@
-# Portfolio Web side
+# Portfolio Web site
+
+### This is a web site about Serter Iyigunlu who is a professional web designer. You can reach me throuh the web site and see my jobs.
 
 ## Portfolio web site about Serter Iyigunlu
 
@@ -107,3 +109,7 @@ a:hover {
 ### Web site progress as shown
 
 ![Website progress](./screenshots/first.png)
+
+<br>
+
+![Website second view](./screenshots/second.png)
