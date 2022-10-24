@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;0,900;1,100;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7d9ea28026.js" crossorigin="anonymous"></script>
+        <title>
+            Contact Me
+        </title>
+    </head>
+    <body>
+        <!--Nav-bar section-->
+        <section class="nav-bar">
+            <nav>
+                <div class="logo">
+                    <a class="logo-name" href="./">
+                        <span class="firstLetter">S</span>
+                        erter
+                        <span class="firstLetter">I</span>
+                        yigunlu
+                    </a>
+                </div>
+                <div class="nav-lists">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutMe.html" target="_blank"> About Me</a>
+                        </li>
+                        <li>
+                            <a href="myExperience.html" target="_blank">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contactMe.html" target="_blank">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <div class="form-contact">
+            <form id="form-contact">
+                <legend>Contact Me Form</legend>
+                <div class="form-elements">
+                    <label for="firstName" class="select">First Name</label>
+                    <input
+                        type="text"
+                        name="firstName"
+                        id="firstName"
+                        placeholder="First Name"
+                        class="select-input"
+                    >
+                </div>
+                <div class="form-elements">
+                    <label for="lastName" class="select">Last Name</label>
+                    <input
+                        type="text"
+                        name="lastName"
+                        id="lastName"
+                        placeholder="Last Name"
+                        class="select-input"
+                    >
+                </div>
+                <div class="form-elements">
+                    <label for="email" class="select">Email address</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email address"
+                        class="select-input"
+                    >
+                </div>
+                <div class="form-elements">
+                    <label for="message" class="select">Message</label>
+                    <textarea
+                        rows="3"
+                        cols="3"
+                        id="message"
+                        name="message"
+                        placeholder="Please enter your message here"
+                    ></textarea>
+                </div>
+                <div class="form-elements signings">
+                    <button class="signing btn">Send</button>
+                    <label for="newsletter" class="select">Want to join our Newsletter</label>
+                    <ul class="newsletter">
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="newsletter"
+                                value="yes"
+                                class="select-input checkbox"
+                                checked
+                            >
+                            Yes
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="newsletter"
+                                value="no"
+                                class="select-input checkbox"
+                            >
+                            No
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <!--Footer Section-->
+    <footer>
+        <div class="iconShow icon-contact">
+            <i class="fa-brands fa-facebook icons"></i>
+            <i class="fa-brands fa-twitter icons"></i>
+        </div>
+        <span class="copyRight">&copy Copyright 2022,Serter Iyigunlu</span>
+    </footer>
+</body>
+</html>

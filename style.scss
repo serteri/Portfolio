@@ -1,6 +1,295 @@
-$error: 1rem;
-
-.nav {
+// Sass variables
+$nav: 1rem;
+$width_general: 100%;
+@mixin flex-box-center {
   display: flex;
-  margin-top: $error;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-box-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+$fontsize-general: 1.4rem;
+$fontfamily-general: "Montserrat", sans-serif;
+$color-general: #74bdcb;
+
+// General declarations
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+// Navigation Design
+nav {
+  display: flex;
+}
+.nav-bar {
+  width: $width_general;
+  background-color: #e7f2f8;
+  height: 2rem;
+}
+.logo {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+.nav-lists {
+  width: 60%;
+}
+.nav-list li {
+  font-size: 0.5em;
+  margin: 0 1em;
+}
+
+.logo-name {
+  font-size: 0.6rem;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.firstLetter {
+  font-size: 1.1em;
+  color: $color-general;
+  font-weight: 600;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0.5em;
+  margin: 0;
+  justify-content: space-around;
+  a {
+    text-decoration: none;
+    color: #ffa384;
+  }
+}
+a:hover {
+  color: $color-general;
+}
+
+// Main section
+.main-content {
+  @include flex-box-center-column();
+  background-image: url(./images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+}
+.contactMe {
+  margin-top: 1rem;
+}
+#salute {
+  font-size: 0.6rem;
+  color: black;
+  font-family: $fontfamily-general;
+}
+#firstSalute {
+  font-size: 1rem;
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+#name {
+  font-size: 0.6rem;
+}
+#info {
+  color: #ffa384;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.6rem;
+}
+.btn {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #ffa384;
+  color: #000080;
+  font-size: 0.4rem;
+}
+.btn:hover {
+  color: $color-general;
+}
+.signUp {
+  margin-bottom: 1rem;
+}
+.join-list {
+  margin-top: 2rem;
+  color: $color-general;
+
+  font-family: $fontfamily-general;
+  font-size: 0.6rem;
+  padding-bottom: 0.5rem;
+}
+#form-contact {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  legend {
+    margin-bottom: 1.2rem;
+  }
+}
+.form-contact {
+  background-image: url(./images/contact.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.form-elements {
+  margin-top: 0.6rem;
+  width: 80%;
+}
+.select {
+  width: 80px;
+  display: inline-block;
+  color: #ffa384;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.select-input {
+  width: 30%;
+}
+input::placeholder {
+  font-size: 0.4rem;
+}
+#message {
+  width: 40%;
+}
+textarea::placeholder {
+  font-size: 0.4rem;
+}
+.newsletter {
+  list-style-type: none;
+  font-family: $fontfamily-general;
+  font-size: 0.6rem;
+}
+.checkbox {
+  width: 9px;
+  height: 9px;
+}
+.signings {
+  @include flex-box-center();
+}
+
+// About Me
+
+.experience {
+  padding-top: 2rem;
+}
+// footer
+.iconShow {
+  @include flex-box-center();
+  height: 20px;
+  width: 100vw;
+}
+.icon-contact {
+  margin-top: 9rem;
+}
+.icons {
+  color: rgb(241, 240, 255);
+  margin-left: 0.9rem;
+  background-color: #000080;
+  font-size: 0.6rem;
+}
+.copyRight {
+  display: block;
+  margin-left: 0.5rem;
+  font-size: 0.4rem;
+  margin-top: 0.9rem;
+}
+
+// * Media Queries */
+
+@media screen and (min-width: 600px) {
+  .nav-bar {
+    width: 100%;
+    background-color: #e7f2f8;
+    height: 5rem;
+  }
+
+  .logo-name {
+    font-size: 2rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+  .nav-lists {
+    width: 50%;
+  }
+  .nav-list li {
+    font-size: $fontsize-general;
+  }
+  .firstLetter {
+    font-size: 2em;
+    color: #d31669;
+    font-weight: 800;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  .contactMe {
+    margin-right: 5rem;
+  }
+  .form-contact {
+    background-image: url(./images/contact.jpg);
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #f4ba0d;
+    color: rgb(243, 149, 126);
+    font-size: 1rem;
+  }
+  .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+  }
+  #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+  }
+  #firstSalute {
+    font-size: 3rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+  }
+  #name {
+    font-size: $fontsize-general;
+  }
+  .form-elements {
+    margin-top: 0.6rem;
+  }
+
+  .select {
+    width: 100px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  input::placeholder {
+    font-size: 0.8rem;
+  }
 }
