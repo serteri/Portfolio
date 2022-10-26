@@ -6,17 +6,33 @@
 
 nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-bar {
   width: 100%;
-  background-color: #e7f2f8;
+  background-color: #f3f3f3;
   height: 2rem;
 }
 
 .logo {
   margin-right: auto;
-  margin-left: 2rem;
+  margin-left: 1rem;
+}
+
+.logo-name {
+  font-size: 0.5rem;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #7a871e;
+}
+
+.firstLetter {
+  font-size: 1rem;
+  color: #104210;
+  font-weight: 600;
 }
 
 .nav-lists {
@@ -24,21 +40,8 @@ nav {
 }
 
 .nav-list li {
-  font-size: 0.5em;
+  font-size: 0.5rem;
   margin: 0 1em;
-}
-
-.logo-name {
-  font-size: 0.6rem;
-  display: inline-block;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-}
-
-.firstLetter {
-  font-size: 1.1em;
-  color: #74bdcb;
-  font-weight: 600;
 }
 
 .nav-list {
@@ -50,11 +53,10 @@ nav {
 }
 .nav-list a {
   text-decoration: none;
-  color: #ffa384;
+  color: #f6a21e;
 }
-
-a:hover {
-  color: #74bdcb;
+.nav-list a:hover {
+  color: #e55b13;
 }
 
 .main-content {
@@ -70,55 +72,60 @@ a:hover {
 }
 
 .contactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 1rem;
 }
 
 #salute {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   color: black;
   font-family: "Montserrat", sans-serif;
 }
-
-#firstSalute {
+#salute #firstSalute {
   font-size: 1rem;
   display: inline-block;
   padding-bottom: 2rem;
 }
-
-#name {
-  font-size: 0.6rem;
+#salute #name {
+  font-size: 1rem;
 }
 
 #info {
-  color: #ffa384;
+  color: #104210;
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
 }
 
 .btn {
   padding: 0.5rem;
   border-radius: 85px;
-  background-color: #ffa384;
-  color: #000080;
-  font-size: 0.4rem;
+  background-color: #f3f3f3;
+  color: #41729f;
+  font-size: 0.3rem;
 }
-
-.btn:hover {
-  color: #74bdcb;
+.btn .btn:hover {
+  color: #104210;
 }
 
 .signUp {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
 }
 
 .join-list {
   margin-top: 2rem;
-  color: #74bdcb;
+  color: #104210;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
@@ -146,9 +153,9 @@ a:hover {
 .select {
   width: 80px;
   display: inline-block;
-  color: #ffa384;
+  color: #f6a21e;
   font-size: 0.6rem;
-  font-weight: 600;
+  font-weight: bolder;
 }
 
 .select-input {
@@ -172,6 +179,10 @@ textarea::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 0.6rem;
 }
+.newsletter li {
+  color: darkgreen;
+  font-weight: bolder;
+}
 
 .checkbox {
   width: 9px;
@@ -184,8 +195,45 @@ textarea::placeholder {
   align-items: center;
 }
 
+.general-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  padding-left: 2rem;
+  background-color: #d7d3c1;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  padding-top: 1.5rem;
+}
+
 .experience {
-  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#experience {
+  font-size: 0.9em;
+}
+
+.experiences {
+  padding-bottom: 1.5rem;
+}
+
+.education {
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+#education {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .iconShow {
@@ -218,23 +266,22 @@ textarea::placeholder {
   .nav-bar {
     width: 100%;
     background-color: #e7f2f8;
-    height: 5rem;
+    height: 2rem;
   }
   .logo-name {
-    font-size: 2rem;
+    font-size: 0.6rem;
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
   }
   .nav-lists {
-    width: 50%;
+    width: 80%;
   }
   .nav-list li {
-    font-size: 1.4rem;
+    font-size: 0.5rem;
   }
   .firstLetter {
-    font-size: 2em;
-    color: #d31669;
+    font-size: 1.2em;
     font-weight: 800;
   }
   .main-content {
@@ -256,8 +303,184 @@ textarea::placeholder {
   .btn {
     padding: 0.5rem;
     border-radius: 85px;
-    background-color: #f4ba0d;
-    color: rgb(243, 149, 126);
+    background-color: #c3e0e5;
+    color: #41729f;
+    font-size: 1rem;
+  }
+  .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+  }
+  #firstSalute {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+  }
+  #name {
+    font-size: 1.2rem;
+  }
+  .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .select {
+    width: 140px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .select-input {
+    width: 50%;
+  }
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 760px) {
+  .nav-bar {
+    width: 100%;
+    background-color: #e7f2f8;
+    height: 2rem;
+  }
+  .logo-name {
+    font-size: 0.8rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+  .nav-lists {
+    width: 80%;
+  }
+  .nav-list li {
+    font-size: 0.9em;
+  }
+  .firstLetter {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  .contactMe {
+    margin-right: 5rem;
+  }
+  .form-contact {
+    background-image: url(./images/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #41729f;
+    font-size: 1rem;
+  }
+  .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+  }
+  #firstSalute {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+  }
+  #name {
+    font-size: 1.2rem;
+  }
+  .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .select {
+    width: 140px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .select-input {
+    width: 50%;
+  }
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .nav-bar {
+    width: 100%;
+    background-color: #e7f2f8;
+    height: 2.3rem;
+  }
+  .logo-name {
+    font-size: 1.2rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+  .nav-lists {
+    width: 70%;
+  }
+  .nav-list li {
+    font-size: 1.3rem;
+  }
+  .firstLetter {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  .contactMe {
+    margin-right: 5rem;
+  }
+  .form-contact {
+    background-image: url(./images/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #41729f;
     font-size: 1rem;
   }
   .join-list {
@@ -285,15 +508,19 @@ textarea::placeholder {
     font-size: 1.6rem;
   }
   #name {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .form-elements {
     margin-top: 0.6rem;
+    width: 100%;
   }
   .select {
-    width: 100px;
+    width: 140px;
     display: inline-block;
     font-size: 1rem;
+  }
+  .select-input {
+    width: 50%;
   }
   input::placeholder {
     font-size: 0.8rem;
