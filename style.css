@@ -12,7 +12,7 @@ nav {
 
 .nav-bar {
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: #e7f2f8;
   height: 2rem;
 }
 
@@ -27,6 +27,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: #7a871e;
+  text-decoration: none;
 }
 
 .firstLetter {
@@ -105,7 +106,7 @@ nav {
 .btn {
   padding: 0.5rem;
   border-radius: 85px;
-  background-color: #f3f3f3;
+  background-color: #e7f2f8;
   color: #41729f;
   font-size: 0.3rem;
 }
@@ -200,16 +201,21 @@ textarea::placeholder {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 80%;
   padding-left: 2rem;
-  background-color: #d7d3c1;
-  margin-left: 2rem;
+  background-image: url(./images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-wrap: wrap;
 }
 
 .about-me {
   padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience {
@@ -220,10 +226,30 @@ textarea::placeholder {
 
 #experience {
   font-size: 0.9em;
+  color: #e55b13;
+  font-weight: 800;
+  width: 70%;
 }
 
 .experiences {
   padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.experiences .btn-blog {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e55b13;
+  color: #41729f;
+  font-size: 0.3rem;
+}
+.experiences .btn-blog:hover {
+  transform: scale(1.2);
+}
+.experiences a:hover {
+  color: #f6a21e;
 }
 
 .education {
@@ -232,8 +258,49 @@ textarea::placeholder {
 }
 
 #education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  width: 70%;
+}
+
+.about-list {
+  list-style-type: none;
+}
+.about-list li {
+  color: #e55b13;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+#blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blog #blogtitle {
+  font-size: 1.2rem;
+}
+#blog .btn-blog {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e55b13;
+  color: #41729f;
+  font-size: 0.3rem;
+}
+#blog .btn-blog:hover {
+  transform: scale(1.2);
+}
+#blog a:hover {
+  color: #f6a21e;
+}
+
+.blog {
+  display: flex;
 }
 
 .iconShow {
