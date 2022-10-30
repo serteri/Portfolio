@@ -4,59 +4,45 @@
   margin: 0;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-bar {
   width: 100%;
   background-color: #e7f2f8;
-  height: 2rem;
+  height: 2.5rem;
 }
-
-.logo {
-  margin-right: auto;
-  margin-left: 1rem;
+.nav-bar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.logo-name {
-  font-size: 0.5rem;
-  display: inline-block;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  color: #7a871e;
-  text-decoration: none;
-}
-
-.firstLetter {
-  font-size: 1rem;
-  color: #104210;
-  font-weight: 600;
-}
-
-.nav-lists {
-  width: 60%;
-}
-
-.nav-list li {
-  font-size: 0.5rem;
+.nav-bar nav img {
+  width: 48px;
   margin: 0 1em;
 }
-
-.nav-list {
+.nav-bar nav .nav-lists {
+  width: 60%;
+}
+.nav-bar nav .nav-lists li {
+  font-size: 0.5rem;
+}
+.nav-bar nav .nav-list {
   list-style-type: none;
   display: flex;
-  padding: 0.5em;
-  margin: 0;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
-.nav-list a {
+.nav-bar nav .nav-list li {
+  padding-left: 1.2rem;
+}
+.nav-bar nav .nav-list li a {
   text-decoration: none;
   color: #f6a21e;
 }
-.nav-list a:hover {
+.nav-bar nav .nav-list li a:hover {
   color: #e55b13;
 }
 
@@ -71,75 +57,83 @@ nav {
   width: 100%;
   height: 80%;
 }
-
-.contactMe {
+.main-content .contactMe {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
 }
-
-#salute {
+.main-content .contactMe #salute {
   font-size: 0.5rem;
   color: black;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-#salute #firstSalute {
+.main-content .contactMe #salute #firstSalute {
   font-size: 1rem;
   display: inline-block;
   padding-bottom: 2rem;
 }
-#salute #name {
+.main-content .contactMe #salute #name {
   font-size: 1rem;
 }
-
-#info {
-  color: #104210;
+.main-content .contactMe #info {
+  color: #e55b13;
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 0.5rem;
 }
-
-.btn {
+.main-content .contactMe .btn {
   padding: 0.5rem;
   border-radius: 85px;
   background-color: #e7f2f8;
   color: #41729f;
-  font-size: 0.3rem;
+  font-size: 0.6rem;
 }
-.btn .btn:hover {
-  color: #104210;
+.main-content .contactMe .btn:hover {
+  color: #e55b13;
+  transform: scale(1.3);
 }
-
-.signUp {
+.main-content .signUp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 1.2rem;
 }
-
-.join-list {
+.main-content .signUp .join-list {
   margin-top: 2rem;
-  color: #104210;
+  color: #e55b13;
+  font-weight: bolder;
   font-family: "Montserrat", sans-serif;
   font-size: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.main-content .signUp .btn {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e7f2f8;
+  color: #41729f;
+  font-size: 0.6rem;
+}
+.main-content .signUp .btn:hover {
+  color: #e55b13;
+  transform: scale(1.3);
+}
 
-#form-contact {
+.form-contact {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
-#form-contact legend {
+.form-contact legend {
   margin-bottom: 1.2rem;
 }
 
-.form-contact {
+#form-contact {
   background-image: url(./images/contact.jpg);
   background-size: cover;
   width: 100%;
@@ -150,17 +144,19 @@ nav {
   margin-top: 0.6rem;
   width: 80%;
 }
-
-.select {
+.form-elements .select {
   width: 80px;
   display: inline-block;
   color: #f6a21e;
   font-size: 0.6rem;
   font-weight: bolder;
 }
+.form-elements .select-input {
+  width: 40%;
+}
 
-.select-input {
-  width: 30%;
+.button-submit {
+  text-align: center;
 }
 
 input::placeholder {
@@ -238,14 +234,14 @@ textarea::placeholder {
   justify-content: center;
   align-items: center;
 }
-.experiences .btn-blog {
+.experiences .btn-blogs {
   padding: 0.5rem;
   border-radius: 85px;
   background-color: #e55b13;
   color: #41729f;
   font-size: 0.3rem;
 }
-.experiences .btn-blog:hover {
+.experiences .btn-blogs:hover {
   transform: scale(1.2);
 }
 .experiences a:hover {
@@ -291,6 +287,7 @@ textarea::placeholder {
   background-color: #e55b13;
   color: #41729f;
   font-size: 0.3rem;
+  margin-bottom: 1.3rem;
 }
 #blog .btn-blog:hover {
   transform: scale(1.2);
@@ -303,6 +300,10 @@ textarea::placeholder {
   display: flex;
 }
 
+footer {
+  background-color: #e7f2f8;
+}
+
 .iconShow {
   display: flex;
   justify-content: center;
@@ -310,46 +311,51 @@ textarea::placeholder {
   height: 20px;
   width: 100vw;
 }
+.iconShow .icon-link {
+  padding-top: 1.2rem;
+  text-decoration: none;
+  color: currentColor;
+}
+.iconShow .icon-link:hover {
+  transform: scale(1.2);
+}
 
 .icon-contact {
   margin-top: 9rem;
 }
 
 .icons {
-  color: rgb(241, 240, 255);
   margin-left: 0.9rem;
-  background-color: #000080;
-  font-size: 0.6rem;
+  width: 18px;
 }
 
 .copyRight {
   display: block;
   margin-left: 0.5rem;
-  font-size: 0.4rem;
+  font-size: 0.6rem;
   margin-top: 0.9rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 759px) {
   .nav-bar {
     width: 100%;
     background-color: #e7f2f8;
-    height: 2rem;
+    height: 2.5rem;
   }
-  .logo-name {
-    font-size: 0.6rem;
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
+  .nav-bar .nav-lists .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
   }
-  .nav-lists {
-    width: 80%;
+  .nav-bar .nav-lists .nav-list li {
+    padding-left: 1.2rem;
   }
-  .nav-list li {
-    font-size: 0.5rem;
+  .nav-bar .nav-lists .nav-list li a {
+    text-decoration: none;
+    color: #f6a21e;
   }
-  .firstLetter {
-    font-size: 1.2em;
-    font-weight: 800;
+  .nav-bar .nav-lists .nav-list li a:hover {
+    color: #e55b13;
   }
   .main-content {
     display: flex;
@@ -358,8 +364,65 @@ textarea::placeholder {
     width: 100%;
     height: 80%;
   }
-  .contactMe {
+  .main-content .contactMe {
     margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-content .contactMe #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+  }
+  .main-content .contactMe #salute #firstSalute {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  .main-content .contactMe #salute #name {
+    font-size: 2rem;
+  }
+  .main-content .contactMe #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .main-content .contactMe .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #41729f;
+    font-size: 0.6rem;
+  }
+  .main-content .signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+  .main-content .signUp .join-list {
+    margin-top: 2rem;
+    color: #e55b13;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .main-content .signUp .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e7f2f8;
+    color: #41729f;
+    font-size: 0.6rem;
+  }
+  .main-content .signUp .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
   }
   .form-contact {
     background-image: url(./images/contact.jpg);
@@ -380,27 +443,6 @@ textarea::placeholder {
     font-size: 2rem;
     padding-bottom: 0.5rem;
   }
-  #salute {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.6rem;
-  }
-  #firstSalute {
-    font-size: 2rem;
-    display: inline-block;
-    padding-bottom: 2rem;
-  }
-  #info {
-    color: rgb(238, 73, 8);
-    font-family: "Montserrat", sans-serif;
-    margin-top: 2rem;
-    font-weight: 600;
-    margin-bottom: 1.4rem;
-    font-size: 1.6rem;
-  }
-  #name {
-    font-size: 1.2rem;
-  }
   .form-elements {
     margin-top: 0.6rem;
     width: 100%;
@@ -416,8 +458,15 @@ textarea::placeholder {
   input::placeholder {
     font-size: 0.8rem;
   }
+  .copyRight {
+    padding-bottom: 0.4rem;
+  }
+  .icons {
+    margin-left: 0.9rem;
+    width: 48px;
+  }
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (max-width: 959px) {
   .nav-bar {
     width: 100%;
     background-color: #e7f2f8;
@@ -474,7 +523,7 @@ textarea::placeholder {
     font-size: 1.6rem;
   }
   #firstSalute {
-    font-size: 2rem;
+    font-size: 53rem;
     display: inline-block;
     padding-bottom: 2rem;
   }
@@ -550,21 +599,18 @@ textarea::placeholder {
     color: #41729f;
     font-size: 1rem;
   }
-  .join-list {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    padding-bottom: 0.5rem;
-  }
   #salute {
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
-  #firstSalute {
-    font-size: 3rem;
+  #salute #firstSalute {
+    font-size: 1rem;
     display: inline-block;
     padding-bottom: 2rem;
+  }
+  #salute #name {
+    font-size: 1.2rem;
   }
   #info {
     color: rgb(238, 73, 8);
@@ -572,21 +618,24 @@ textarea::placeholder {
     margin-top: 2rem;
     font-weight: 600;
     margin-bottom: 1.4rem;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
-  #name {
-    font-size: 1.2rem;
+  .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
   }
   .form-elements {
     margin-top: 0.6rem;
     width: 100%;
   }
-  .select {
+  .form-elements .select {
     width: 140px;
     display: inline-block;
     font-size: 1rem;
   }
-  .select-input {
+  .form-elements .select-input {
     width: 50%;
   }
   input::placeholder {

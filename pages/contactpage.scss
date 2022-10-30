@@ -1,0 +1,34 @@
+@mixin form-contact {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  legend {
+    margin-bottom: 1.2rem;
+  }
+}
+
+@mixin form-contact-general {
+  background-image: url(./images/contact.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin message {
+  width: 40%;
+}
+
+@mixin newsletter {
+  list-style-type: none;
+  font-family: $fontfamily-general;
+  font-size: 0.6rem;
+  li {
+    color: darkgreen;
+    font-weight: bolder;
+  }
+}
+
+@mixin checkbox {
+  width: 9px;
+  height: 9px;
+}
