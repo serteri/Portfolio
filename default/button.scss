@@ -1,9 +1,9 @@
 @mixin button {
   padding: 0.5rem;
   border-radius: 85px;
-  background-color: $color-backgroung;
+  background-color: #c3e0e5;
   color: $color-btn;
-  font-size: 0.6rem;
+  font-size: 1rem;
 
   &:hover {
     color: $color-general;
@@ -17,4 +17,30 @@
   background-color: $color-ahover;
   color: $color-btn;
   font-size: 0.3rem;
+}
+
+@mixin button-middle {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #c3e0e5;
+  color: $color-btn;
+  font-size: 0.7rem;
+
+  &:hover {
+    color: $color-general;
+    transform: scale(1.3);
+  }
+}
+
+@mixin button-mobile {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #c3e0e5;
+  color: $color-btn;
+  font-size: 1rem;
+
+  &:hover {
+    color: $color-general;
+    transform: scale(1.3);
+  }
 }
