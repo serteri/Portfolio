@@ -48,11 +48,13 @@
 
 .main-content {
   @include flex-box-center;
+  margin-top: 0.3rem;
 
   width: 100%;
   .contactMe {
     @include flex-box-center-column();
-    background-color: blueviolet;
+    background-color: $color-left-side;
+    border-radius: 15%;
     padding-top: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -60,7 +62,7 @@
     #salute {
       font-size: $fontsize-general;
       color: black;
-      // text-align: center;
+      text-align: center;
       font-family: $fontfamily-general;
       #firstSalute {
         font-size: $font-size-firstletters;
@@ -87,8 +89,9 @@
   .signUp {
     @include flex-box-center-column();
     height: 300px;
-    background-color: aqua;
-    padding-top: 2rem;
+    background-color: $color-right-side;
+    border-radius: 15%;
+    margin-right: 0.5rem;
 
     .join-list {
       margin-top: 0.6rem;
@@ -110,44 +113,14 @@
           font-weight: bolder;
         }
         .select-input {
-          width: 40%;
+          width: 35%;
+          &::placeholder {
+            font-size: 0.4rem;
+          }
         }
         .btn {
           @include button-mobile;
         }
-      }
-    }
-  }
-}
-
-.form-contact {
-  @include form-contact;
-  #form-contact {
-    @include form-contact-general;
-    .form-elements {
-      margin-top: 0.6rem;
-      width: 80%;
-      .select {
-        width: 80px;
-        display: inline-block;
-        color: $color-links;
-        font-size: 0.6rem;
-        font-weight: bolder;
-      }
-      .select-input {
-        width: 40%;
-      }
-      #message {
-        @include message();
-      }
-      .newsletter {
-        @include newsletter();
-      }
-      .checkbox {
-        @include checkbox();
-      }
-      .signings {
-        @include flex-box-center();
       }
     }
   }
@@ -160,13 +133,16 @@
 //Blogs section
 
 .blog {
+  height: 100vh;
   margin-top: 1.2rem;
   width: 100%;
+  background-color: $color-backgroung;
 
   h1 {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
+    padding-top: 0.8rem;
   }
   .blogs {
     .blog-examples {
@@ -174,16 +150,20 @@
 
       li {
         display: block;
-        width: 60%;
+        width: 80%;
+
         margin-top: 1.5rem;
         margin-left: 2rem;
 
         a {
+          display: inline-block;
           text-decoration: none;
-          color: $color-links;
+          color: black;
+          padding-top: 0.5rem;
+          padding-bottom: 0.6rem;
 
           img {
-            width: 96px;
+            width: 100%;
             padding-top: 1.2rem;
             display: block;
           }
@@ -196,82 +176,16 @@
   }
 }
 
-// About Me
-
-.general-info {
-  @include flex-box-center-column();
-  @include generel-info();
-}
-.about-me {
-  @include aboutme();
-  @include flex-box-center-column();
-}
-.experience {
-  padding-bottom: $padding-general;
-  font-size: $font-size-middle;
-  @include experience();
-}
-#experience {
-  font-size: $font-size-p;
-  color: $color-ahover;
-  @include experience-id();
-}
-.experiences {
-  padding-bottom: $padding-general;
-  @include flex-box-center-column();
-  .btn-blogs {
-    @include button-about();
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
-  a:hover {
-    color: $color-links;
-  }
-}
-.education {
-  font-size: $font-size-middle;
-  padding-bottom: $padding-general;
-}
-#education {
-  @include flex-box-center-column();
-  padding-top: $padding-general;
-  padding-bottom: $padding-general;
-  width: 70%;
-}
-.about-list {
-  @include about-list();
-}
-#blog {
-  @include flex-box-center-column();
-  #blogtitle {
-    font-size: $font-size-middle;
-  }
-  .btn-blog {
-    @include button-about();
-    margin-bottom: 1.3rem;
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
-
-  a:hover {
-    color: $color-links;
-  }
-}
-
-//Blog
-
-// .blog {
-//   display: flex;
-// }
-
 // footer
 footer {
   background-color: $color-backgroung;
   @include flex-box-center-column-footer;
   width: 100%;
-  height: 100%;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .iconShow {
   @include flex-box-center();
@@ -339,9 +253,10 @@ footer {
     .contactMe {
       margin-right: 5rem;
       @include flex-box-center();
+
       #salute {
         color: black;
-        font-family: "Montserrat", sans-serif;
+        font-family: $fontfamily-general;
         font-size: $font-size-firstletters;
         #firstSalute {
           font-size: $font-size-bigger;
@@ -349,7 +264,7 @@ footer {
           padding-bottom: 2rem;
         }
         #name {
-          font-size: $fontsize-big;
+          font-size: $font-size-firstletters;
         }
       }
       #info {
@@ -358,7 +273,7 @@ footer {
         margin-top: 2rem;
         font-weight: 600;
         margin-bottom: 1.4rem;
-        font-size: $font-size-firstletters;
+        font-size: $font-size-p;
       }
       .btn {
         @include button-middle;
@@ -427,6 +342,51 @@ footer {
     width: 48px;
     // width: 1.2rem;
   }
+  .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: $color-backgroung;
+
+    h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-top: 0.8rem;
+    }
+    .blogs {
+      .blog-examples {
+        list-style-type: none;
+
+        li {
+          width: 100%;
+
+          margin-top: 1.5rem;
+          margin-left: 2rem;
+
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            padding-top: 0.5rem;
+            padding-bottom: 0.6rem;
+            &:hover {
+              transform: scale(1.2);
+              color: $color-ahover;
+            }
+
+            img {
+              width: 100%;
+              padding-top: 1.2rem;
+              display: block;
+            }
+          }
+        }
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 760px) and (max-width: 959px) {
   .nav-bar {
@@ -469,7 +429,7 @@ footer {
         font-family: "Montserrat", sans-serif;
         font-size: $font-size-firstletters;
         #firstSalute {
-          font-size: $font-size-firstletters;
+          font-size: $font-size-bigger;
           display: inline-block;
           padding-bottom: 2rem;
         }
@@ -483,7 +443,7 @@ footer {
         margin-top: 2rem;
         font-weight: 600;
         margin-bottom: 1.4rem;
-        font-size: $fontsize-big;
+        font-size: $font-size-firstletters;
       }
       .btn {
         @include button;
@@ -539,6 +499,52 @@ footer {
   .join-list {
     .select-input {
       width: 50%;
+    }
+  }
+  .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: $color-backgroung;
+
+    h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-top: 0.8rem;
+    }
+    .blogs {
+      .blog-examples {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          width: 20%;
+
+          margin-top: 1.5rem;
+          margin-left: 2rem;
+
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            padding-top: 0.5rem;
+            padding-bottom: 0.6rem;
+            &:hover {
+              transform: scale(1.2);
+              color: $color-ahover;
+            }
+
+            img {
+              width: 100%;
+              padding-top: 1.2rem;
+              display: block;
+            }
+          }
+        }
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+      }
     }
   }
   footer {
@@ -601,9 +607,12 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 60%;
     .contactMe {
       margin-right: 5rem;
+      width: 50%;
+      background-color: $color-right-side;
+      border-radius: 10%;
       #salute {
         color: black;
         font-family: "Montserrat", sans-serif;
@@ -631,6 +640,8 @@ footer {
     }
     .signUp {
       @include flex-box-center-column();
+      background-color: $color-left-side;
+      border-radius: 10%;
       margin-bottom: 1.2rem;
       .join-list {
         color: black;
@@ -644,12 +655,17 @@ footer {
           margin-top: 0.6rem;
           width: 100%;
           .select {
-            width: 42%;
+            width: 50%;
             display: inline-block;
             font-size: $font-size-firstletters;
+            font-weight: 600;
+            font-family: $fontfamily-general;
           }
           .select-input {
-            width: 40%;
+            width: 45%;
+            &::placeholder {
+              font-size: $font-size-firstletters;
+            }
           }
           .btn {
             @include button();
@@ -687,6 +703,49 @@ footer {
     }
     .select-input {
       width: 50%;
+    }
+  }
+
+  .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: $color-backgroung;
+
+    h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-top: 0.8rem;
+    }
+    .blogs {
+      .blog-examples {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          width: 20%;
+
+          margin-top: 1.5rem;
+          margin-left: 2rem;
+
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            padding-top: 0.5rem;
+            padding-bottom: 0.6rem;
+
+            img {
+              width: 100%;
+              padding-top: 1.2rem;
+              display: block;
+            }
+          }
+        }
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+      }
     }
   }
 

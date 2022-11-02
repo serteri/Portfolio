@@ -1,0 +1,54 @@
+.form-contact {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.form-contact legend {
+  margin-bottom: 1.2rem;
+}
+.form-contact #form-contact {
+  background-image: url(./images/contact.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.form-contact #form-contact .form-elements {
+  margin-top: 0.6rem;
+  width: 80%;
+}
+.form-contact #form-contact .form-elements .select {
+  width: 80px;
+  display: inline-block;
+  color: #f6a21e;
+  font-size: 0.6rem;
+  font-weight: bolder;
+}
+.form-contact #form-contact .form-elements .select-input {
+  width: 40%;
+}
+.form-contact #form-contact .form-elements #message {
+  width: 40%;
+}
+.form-contact #form-contact .form-elements .newsletter {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.6rem;
+}
+.form-contact #form-contact .form-elements .newsletter li {
+  color: darkgreen;
+  font-weight: bolder;
+}
+.form-contact #form-contact .form-elements .checkbox {
+  width: 9px;
+  height: 9px;
+}
+.form-contact #form-contact .form-elements .signings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.button-submit {
+  text-align: center;
+}
