@@ -5,7 +5,12 @@
 }
 body {
   position: relative;
-  min-height: 100%;
+  text-align: center;
+  // Line 1
+  display: flex;
+  // Line 2
+  flex-direction: column;
+  // Line 3
   min-height: 100vh;
 }
 $nav: 1rem;

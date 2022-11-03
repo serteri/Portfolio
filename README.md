@@ -108,9 +108,207 @@
 
 <br>
 
+## Blog section for main page
+
+```html
+<div class="wrapper">
+        <section class="blog">
+            <h1>Blog examples</h1>
+            <div class="blogs">
+                <ul class="blog-examples">
+                    <li id="blog-1">
+                        <a href="./pages/blog1.html" target="_blank">
+                            <img src="./images/blog1.jpeg" alt="css">
+                        </a>
+                        <a href="./pages/blog1.html" target="_blank">CODE DESIGNERS SHOULD CODE: BUILD AN APP FROM SCRATCH</a>
+                    </li>
+                    <li id="blog-2">
+                        <a href="./pages/blog2.html" target="_blank">
+                            <img src="./images/blog2.jpeg" alt="css">
+                        </a>
+                        <a href="./pages/blog2.html" target="_blank">15 BEST CSS FRAMEWORKS: PROFESSIONAL BOOTSTRAP AND FOUNDATION ALTERNATIVES</a>
+                    </li>
+                    <li id="blog-3">
+                        <a href="./pages/blog3.html" target="_blank">
+                            <img src="./images/blog3.jpeg" alt="boostrap">
+                        </a>
+                        <a href="./pages/blog3.html" target="_blank">HOW TO SPEED UP YOUR BOOTSTRAP DEVELOPMENT PROCESSALTERNATIVES</a>
+                    </li>
+                    <li id="blog-4">
+                        <a href="./pages/blog4.html" target="_blank">
+                            <img src="./images/blog4.jpeg" alt="javascript">
+                        </a>
+                        <a href="./pages/blog4.html" target="_blank">IS THERE A VIABLE ALTERNATIVE TO JAVASCRIPT?</a>
+                    </li>
+                    <li id="blog-5">
+                        <a href="./pages/blog5.html" target="_blank">
+                            <img src="./images/blog7.jpeg" alt="images">
+                        </a>
+                        <a href="./pages/blog5.html" target="_blank">HOW TO CODE A “CLICK TO TWEET” BUTTON</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+```
+
 ## Footer section of the web site
 
 ```html
+<footer>
+  <div class="iconShow">
+    <a
+      href="https://www.linkedin.com/in/serter-iyigunlu-18897955/"
+      class="icon-link"
+    >
+      <i class="fa-brands fa-linkedin  icons"></i>
+    </a>
+    <a href="https://twitter.com/home" class="icon-link">
+      <i class="fa-brands fa-twitter icons"></i>
+    </a>
+    <a href="https://github.com/serteri" class="icon-link">
+      <i class="fa-brands fa-github  icons"></i>
+    </a>
+  </div>
+  <span class="copyRight">&copy Copyright 2022,Serter Iyigunlu</span>
+</footer>
+```
+
+# Other pages html codes
+
+## About me page html code
+
+```html
+<!--Nav-bar section-->
+<section class="nav-bar">
+  <nav>
+    <div class="logo">
+      <a href="./">
+        <img src="../images/logo1.png" alt="company logo" />
+      </a>
+    </div>
+    <div class="nav-lists">
+      <ul class="nav-list">
+        <li>
+          <a href="../index.html" target="_blank">Home</a>
+        </li>
+        <li>
+          <a href="./aboutMe.html" target="_blank"> About Me</a>
+        </li>
+        <li>
+          <a href="./myExperience.html" target="_blank">Portfolio</a>
+        </li>
+        <li>
+          <a href="./contactMe.html" target="_blank">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+<main class="general-info">
+  <div class="about-me">
+    <h2 class="experience">My experience</h2>
+    <p id="experience">
+      I do have one year experience as a web developer. You can see my work
+      experience and education information below.
+    </p>
+  </div>
+  <div id="education">
+    <h2 class="education">My Education</h2>
+    <ul class="about-list">
+      <li>University Degree in 2002</li>
+      <li>Master Degree in 2015</li>
+      <li>Web Development Course (2022-2023)</li>
+    </ul>
+  </div>
+  <div class="experiences">
+    <h2 class="experience">My Resume</h2>
+    <button class=" btn-blogs">
+      <a
+        class="logo-name"
+        href="../resume/Resume template - Standard.pdf"
+        target="_blank"
+        >Resume</a
+      >
+    </button>
+  </div>
+  <section id="blog">
+    <h2 id="blogtitle">Click below to see my Blog</h2>
+    <button class=" btn-blog">
+      <a class="logo-name" href="./blog.html" target="_blank">Click Me</a>
+    </button>
+  </section>
+</main>
+<footer>
+  <div class="iconShow">
+    <a
+      href="https://www.linkedin.com/in/serter-iyigunlu-18897955/"
+      class="icon-link"
+    >
+      <i class="fa-brands fa-linkedin  icons"></i>
+    </a>
+    <a href="https://twitter.com/home" class="icon-link">
+      <i class="fa-brands fa-twitter icons"></i>
+    </a>
+    <a href="https://github.com/serteri" class="icon-link">
+      <i class="fa-brands fa-github  icons"></i>
+    </a>
+  </div>
+  <span class="copyRight">&copy Copyright 2022,Serter Iyigunlu</span>
+</footer>
+```
+
+## Portfolio page html code
+
+```html
+<!--Nav-bar section-->
+<section class="nav-bar">
+  <nav>
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../images/logo1.png" alt="company logo" />
+      </a>
+    </div>
+    <div class="nav-lists">
+      <ul class="nav-list">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./aboutMe.html" target="_blank"> About Me</a>
+        </li>
+        <li>
+          <a href="./myExperience.html" target="_blank">Portfolio</a>
+        </li>
+        <li>
+          <a href="./contactMe.html" target="_blank">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+<div class="wrapper">
+  <main class="myJobs">
+    <div class="job">
+      <h2 class="job-heading">Job1</h2>
+      <img src="../images/job1.avif" alt="job-1" class="images-job" />
+    </div>
+    <div class="job">
+      <h2 class="job-heading">Job2</h2>
+      <img src="../images/job2.avif" alt="job-2" class="images-job" />
+    </div>
+    <div class="job">
+      <h2 class="job-heading">Job3</h2>
+      <img src="../images/job3.avif" alt="job-3" class="images-job" />
+    </div>
+    <div class="job">
+      <h2 class="job-heading">Job4</h2>
+      <img src="../images/job4.avif" alt="job-4" class="images-job" />
+    </div>
+  </main>
+</div>
+<!-- Footer Section -->
 <footer>
   <div class="iconShow">
     <a
@@ -211,7 +409,7 @@ $font-size-p: 0.9em;
 $fontfamily-general: "Montserrat", sans-serif;
 ```
 
-## Navigation Design
+## Navigation Design for home page for mobile view
 
 ```css
 .nav-bar {
@@ -252,7 +450,7 @@ $fontfamily-general: "Montserrat", sans-serif;
 }
 ```
 
-## Main Section sass design
+## Main Section sass design for home page mobile view
 
 ```css
 .main-content {
@@ -358,7 +556,7 @@ $fontfamily-general: "Montserrat", sans-serif;
 }
 ```
 
-## Blog section css
+## Blog section css mobile view
 
 ```css
 .blog {
@@ -398,7 +596,7 @@ $fontfamily-general: "Montserrat", sans-serif;
 }
 ```
 
-## Footer section css
+## Footer section css mobile view
 
 ```css
 footer {
@@ -455,11 +653,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
   }
   .nav-bar nav {
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
     height: 2.3rem;
   }
   .nav-bar nav .logo a img {
@@ -478,7 +675,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
     width: 100%;
     height: 80%;
   }
@@ -487,7 +683,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
   }
   .main-content .contactMe #salute {
     color: black;
@@ -582,50 +777,80 @@ footer {
     font-size: 2rem;
     padding-bottom: 0.5rem;
   }
-  .copyRight {
-    padding-bottom: 0.4rem;
+  .wrapper {
+    background-color: #2f3148;
   }
-  .icons {
-    margin-left: 0.9rem;
-    width: 48px;
-  }
-  .blog {
+  .wrapper .blog {
     margin-top: 1.2rem;
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
+    flex: 1;
   }
-  .blog h1 {
+  .wrapper .blog h1 {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
     padding-top: 0.8rem;
   }
-  .blog .blogs .blog-examples {
+  .wrapper .blog .blogs .blog-examples {
     list-style-type: none;
   }
-  .blog .blogs .blog-examples li {
-    width: 100%;
+  .wrapper .blog .blogs .blog-examples li {
+    display: block;
+    width: 80%;
     margin-top: 1.5rem;
     margin-left: 2rem;
   }
-  .blog .blogs .blog-examples li a {
+  .wrapper .blog .blogs .blog-examples li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #8689ac;
     padding-top: 0.5rem;
     padding-bottom: 0.6rem;
   }
-  .blog .blogs .blog-examples li a:hover {
-    transform: scale(1.2);
-    color: #e55b13;
+  .wrapper .blog .blogs .blog-examples li a:hover {
+    transform: scale(1.3);
   }
-  .blog .blogs .blog-examples li a img {
-    width: 100%;
-    padding-top: 1.2rem;
+  .wrapper .blog .blogs .blog-examples li a img {
+    width: 50%;
+    padding-top: 0.6rem;
     display: block;
   }
-  .blog .blogs .blog-examples:last-child {
-    margin-bottom: 2rem;
+  .wrapper .blog .blogs .blog-examples:last-child {
+    margin-bottom: 5rem;
+  }
+  footer {
+    background-color: #3f5576;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  footer .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  footer .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  footer .iconShow .icon-link:hover {
+    transform: scale(1.4);
+  }
+  footer .iconShow .icon-link .icons {
+    margin-left: 0.9rem;
+    width: 32px;
+  }
+  footer .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.9rem;
   }
 }
 @media screen and (min-width: 760px) and (max-width: 959px) {
@@ -633,11 +858,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
   }
   .nav-bar nav {
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
     height: 2.3rem;
   }
   .nav-bar nav .logo a img {
@@ -753,7 +977,7 @@ footer {
   .blog {
     margin-top: 1.2rem;
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
   }
   .blog h1 {
     display: block;
@@ -774,7 +998,7 @@ footer {
   .blog .blogs .blog-examples li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #8689ac;
     padding-top: 0.5rem;
     padding-bottom: 0.6rem;
   }
@@ -791,13 +1015,12 @@ footer {
     margin-bottom: 2rem;
   }
   footer {
-    background-color: #e7f2f8;
+    background-color: #3f5576;
   }
   footer .iconShow {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
     height: 20px;
     width: 100vw;
   }
@@ -817,7 +1040,7 @@ footer {
     display: block;
     margin-left: 0.5rem;
     font-size: 0.6rem;
-    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
   }
 }
 @media screen and (min-width: 960px) {
@@ -825,11 +1048,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
   }
   .nav-bar nav {
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
     height: 2.3rem;
   }
   .nav-bar nav .logo img {
@@ -855,7 +1077,7 @@ footer {
   .main-content .contactMe {
     margin-right: 5rem;
     width: 50%;
-    background-color: #f8ea8c;
+    background-color: #3f5576;
     border-radius: 10%;
   }
   .main-content .contactMe #salute {
@@ -896,7 +1118,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex: 1 1 0;
-    background-color: #fbe7c6;
+    background-color: #587099;
     border-radius: 10%;
     margin-bottom: 1.2rem;
   }
@@ -962,50 +1184,50 @@ footer {
   .form-elements .select-input {
     width: 50%;
   }
-  .blog {
+  .wrapper .blog {
     margin-top: 1.2rem;
     width: 100%;
-    background-color: #e7f2f8;
+    background-color: #2f3148;
+    flex: 1;
   }
-  .blog h1 {
+  .wrapper .blog h1 {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
     padding-top: 0.8rem;
   }
-  .blog .blogs .blog-examples {
+  .wrapper .blog .blogs .blog-examples {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
   }
-  .blog .blogs .blog-examples li {
+  .wrapper .blog .blogs .blog-examples li {
     width: 20%;
     margin-top: 1.5rem;
     margin-left: 2rem;
   }
-  .blog .blogs .blog-examples li a {
+  .wrapper .blog .blogs .blog-examples li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #8689ac;
     padding-top: 0.5rem;
     padding-bottom: 0.6rem;
   }
-  .blog .blogs .blog-examples li a img {
+  .wrapper .blog .blogs .blog-examples li a img {
     width: 100%;
     padding-top: 1.2rem;
     display: block;
   }
-  .blog .blogs .blog-examples:last-child {
+  .wrapper .blog .blogs .blog-examples:last-child {
     margin-bottom: 2rem;
   }
   footer {
-    background-color: #e7f2f8;
+    background-color: #3f5576;
   }
   footer .iconShow {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
     height: 20px;
     width: 100vw;
   }
@@ -1015,7 +1237,7 @@ footer {
     color: currentColor;
   }
   footer .iconShow .icon-link:hover {
-    transform: scale(1.4);
+    transform: scale(1.6);
   }
   footer .iconShow .icon-link .icons {
     margin-left: 0.9rem;
@@ -1025,7 +1247,7 @@ footer {
     display: block;
     margin-left: 0.5rem;
     font-size: 0.6rem;
-    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
   }
 }
 ```
@@ -1086,3 +1308,7 @@ On this page I included my experience section, my education section, a link to d
 #### First view for normal view
 
 ![Website first normal view](./screenshots/2november%20index%20page%20normal%20view.png)
+
+#### Home page mobile view
+
+![Website home page mobile view](./screenshots/3november%20home%20page%20mobile%20view.png)

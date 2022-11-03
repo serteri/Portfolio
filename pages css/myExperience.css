@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  position: relative;
+  text-align: center;
+  // Line 1
+  display: flex;
+  // Line 2
+  flex-direction: column;
+  // Line 3
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: #2f3148;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 6rem;
+}
+.myJobs {
+  width: 80%;
+  padding-top: 1rem;
+  background-color: #2f3148;
+}
+
+.job-heading {
+  color: #8689ac;
+  padding-bottom: 0.6rem;
+}
+
+.images-job {
+  height: 10%;
+  width: 60%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 759px) {
+  .myJobs {
+    height: 100vh;
+    width: 80%;
+    padding-top: 1rem;
+    background-color: #2f3148;
+    flex: 1;
+  }
+
+  .job-heading {
+    color: #8689ac;
+    padding-bottom: 0.6rem;
+  }
+
+  .images-job {
+    height: 10%;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  .wrapper {
+    background-color: #2f3148;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 6rem;
+  }
+  .myJobs {
+    width: 55%;
+    height: 100%;
+    padding-top: 1rem;
+    background-color: #2f3148;
+  }
+
+  .job-heading {
+    color: #8689ac;
+    padding-bottom: 0.6rem;
+  }
+
+  .images-job {
+    height: 10%;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .wrapper {
+    background-color: #2f3148;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+  }
+  .myJobs {
+    width: 55%;
+    height: 100%;
+    padding-top: 1rem;
+    background-color: #2f3148;
+  }
+
+  .job-heading {
+    color: #8689ac;
+    padding-bottom: 0.6rem;
+  }
+
+  .images-job {
+    height: 10%;
+    width: 50%;
+  }
+}

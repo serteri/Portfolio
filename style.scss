@@ -131,46 +131,54 @@
 }
 
 //Blogs section
-
-.blog {
-  height: 100vh;
-  margin-top: 1.2rem;
-  width: 100%;
+.wrapper {
   background-color: $color-backgroung;
+  .blog {
+    height: 100%;
 
-  h1 {
-    display: block;
-    text-align: center;
-    margin-bottom: 2rem;
-    padding-top: 0.8rem;
-  }
-  .blogs {
-    .blog-examples {
-      list-style-type: none;
+    margin-top: 1.2rem;
+    width: 80%;
+    background-color: $color-backgroung;
+    flex: 1;
 
-      li {
-        display: block;
-        width: 80%;
+    h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-top: 0.8rem;
+    }
+    .blogs {
+      .blog-examples {
+        list-style-type: none;
 
-        margin-top: 1.5rem;
-        margin-left: 2rem;
+        li {
+          display: block;
+          width: 80%;
 
-        a {
-          display: inline-block;
-          text-decoration: none;
-          color: black;
-          padding-top: 0.5rem;
-          padding-bottom: 0.6rem;
+          margin-top: 1.5rem;
+          margin-left: 2rem;
 
-          img {
-            width: 100%;
-            padding-top: 1.2rem;
-            display: block;
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: $color-text;
+            padding-top: 0.5rem;
+            padding-bottom: 0.6rem;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+
+            img {
+              width: 100%;
+              padding-top: 1.2rem;
+              display: block;
+            }
           }
         }
-      }
-      &:last-child {
-        margin-bottom: 2rem;
+        &:last-child {
+          margin-bottom: 5rem;
+        }
       }
     }
   }
@@ -178,7 +186,7 @@
 
 // footer
 footer {
-  background-color: $color-backgroung;
+  background-color: $color-footer;
   @include flex-box-center-column-footer;
   width: 100%;
 
@@ -222,7 +230,7 @@ footer {
     @include flex-box-center;
     nav {
       width: 100%;
-      background-color: #e7f2f8;
+      background-color: $color-backgroung;
       height: 2.3rem;
       .logo {
         a {
@@ -333,58 +341,88 @@ footer {
     font-size: 2rem;
     padding-bottom: 0.5rem;
   }
-
-  .copyRight {
-    padding-bottom: 0.4rem;
-  }
-  .icons {
-    margin-left: 0.9rem;
-    width: 48px;
-    // width: 1.2rem;
-  }
-  .blog {
-    margin-top: 1.2rem;
-    width: 100%;
+  .wrapper {
     background-color: $color-backgroung;
+    .blog {
+      margin-top: 1.2rem;
+      width: 100%;
+      background-color: $color-backgroung;
+      flex: 1;
 
-    h1 {
-      display: block;
-      text-align: center;
-      margin-bottom: 2rem;
-      padding-top: 0.8rem;
-    }
-    .blogs {
-      .blog-examples {
-        list-style-type: none;
+      h1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 0.8rem;
+      }
+      .blogs {
+        .blog-examples {
+          list-style-type: none;
 
-        li {
-          width: 100%;
+          li {
+            display: block;
+            width: 80%;
 
-          margin-top: 1.5rem;
-          margin-left: 2rem;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
 
-          a {
-            display: inline-block;
-            text-decoration: none;
-            color: black;
-            padding-top: 0.5rem;
-            padding-bottom: 0.6rem;
-            &:hover {
-              transform: scale(1.2);
-              color: $color-ahover;
-            }
+            a {
+              display: inline-block;
+              text-decoration: none;
+              color: $color-text;
+              padding-top: 0.5rem;
+              padding-bottom: 0.6rem;
 
-            img {
-              width: 100%;
-              padding-top: 1.2rem;
-              display: block;
+              &:hover {
+                transform: scale(1.3);
+              }
+
+              img {
+                width: 50%;
+                padding-top: 0.6rem;
+                display: block;
+              }
             }
           }
-        }
-        &:last-child {
-          margin-bottom: 2rem;
+          &:last-child {
+            margin-bottom: 5rem;
+          }
         }
       }
+    }
+  }
+
+  footer {
+    background-color: $color-footer;
+    width: 100%;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .iconShow {
+      @include flex-box-center();
+      height: 20px;
+      width: 100vw;
+      .icon-link {
+        padding-top: 1.2rem;
+        text-decoration: none;
+        color: currentColor;
+        &:hover {
+          transform: scale(1.4);
+        }
+        .icons {
+          margin-left: 0.9rem;
+          width: 32px;
+          // width: 1.2rem;
+        }
+      }
+    }
+    .copyRight {
+      display: block;
+      margin-left: 0.5rem;
+      font-size: 0.6rem;
+      margin-bottom: 0.9rem;
     }
   }
 }
@@ -393,7 +431,7 @@ footer {
     @include flex-box-center;
     nav {
       width: 100%;
-      background-color: #e7f2f8;
+      background-color: $color-backgroung;
       height: 2.3rem;
       .logo {
         a {
@@ -526,7 +564,7 @@ footer {
           a {
             display: inline-block;
             text-decoration: none;
-            color: black;
+            color: $color-text;
             padding-top: 0.5rem;
             padding-bottom: 0.6rem;
             &:hover {
@@ -548,7 +586,8 @@ footer {
     }
   }
   footer {
-    background-color: $color-backgroung;
+    background-color: $color-footer;
+
     .iconShow {
       @include flex-box-center();
       height: 20px;
@@ -573,7 +612,7 @@ footer {
     display: block;
     margin-left: 0.5rem;
     font-size: 0.6rem;
-    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
   }
 }
 @media screen and (min-width: 960px) {
@@ -581,7 +620,7 @@ footer {
     @include flex-box-center;
     nav {
       width: 100%;
-      background-color: #e7f2f8;
+      background-color: $color-backgroung;
       height: 2.3rem;
       .logo {
         img {
@@ -705,52 +744,54 @@ footer {
       width: 50%;
     }
   }
+  .wrapper {
+    .blog {
+      margin-top: 1.2rem;
+      width: 100%;
+      background-color: $color-backgroung;
+      flex: 1;
 
-  .blog {
-    margin-top: 1.2rem;
-    width: 100%;
-    background-color: $color-backgroung;
+      h1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 0.8rem;
+      }
+      .blogs {
+        .blog-examples {
+          list-style-type: none;
+          display: flex;
+          flex-wrap: wrap;
+          li {
+            width: 20%;
 
-    h1 {
-      display: block;
-      text-align: center;
-      margin-bottom: 2rem;
-      padding-top: 0.8rem;
-    }
-    .blogs {
-      .blog-examples {
-        list-style-type: none;
-        display: flex;
-        flex-wrap: wrap;
-        li {
-          width: 20%;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
 
-          margin-top: 1.5rem;
-          margin-left: 2rem;
+            a {
+              display: inline-block;
+              text-decoration: none;
+              color: $color-text;
+              padding-top: 0.5rem;
+              padding-bottom: 0.6rem;
 
-          a {
-            display: inline-block;
-            text-decoration: none;
-            color: black;
-            padding-top: 0.5rem;
-            padding-bottom: 0.6rem;
-
-            img {
-              width: 100%;
-              padding-top: 1.2rem;
-              display: block;
+              img {
+                width: 100%;
+                padding-top: 1.2rem;
+                display: block;
+              }
             }
           }
-        }
-        &:last-child {
-          margin-bottom: 2rem;
+          &:last-child {
+            margin-bottom: 2rem;
+          }
         }
       }
     }
   }
 
   footer {
-    background-color: $color-backgroung;
+    background-color: $color-footer;
     .iconShow {
       @include flex-box-center();
       height: 20px;
@@ -760,7 +801,7 @@ footer {
         text-decoration: none;
         color: currentColor;
         &:hover {
-          transform: scale(1.4);
+          transform: scale(1.6);
         }
         .icons {
           margin-left: 0.9rem;
@@ -775,6 +816,6 @@ footer {
     display: block;
     margin-left: 0.5rem;
     font-size: 0.6rem;
-    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
   }
 }
