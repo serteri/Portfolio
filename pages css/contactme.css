@@ -1,33 +1,55 @@
+.wrapper {
+  background-color: #2f3148;
+  height: 100vh;
+  opacity: 0.7;
+}
+
 .form-contact {
-  text-align: center;
-  padding-top: 2rem;
   padding-bottom: 4rem;
+  height: 100%;
+  flex: 1;
+  width: 80%;
+  margin-left: 0.6rem;
 }
 .form-contact legend {
+  padding-top: 0.6rem;
   margin-bottom: 1.2rem;
+  color: #8689ac;
 }
 .form-contact #form-contact {
-  background-image: url(./images/contact.jpg);
+  background-color: #2f3148;
   background-size: cover;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .form-contact #form-contact .form-elements {
   margin-top: 0.6rem;
-  width: 80%;
+  width: 70%;
 }
 .form-contact #form-contact .form-elements .select {
   width: 80px;
   display: inline-block;
   color: #f6a21e;
   font-size: 0.6rem;
-  font-weight: bolder;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-contact #form-contact .form-elements .sign-label {
+  width: 80px;
+  display: inline-block;
+  color: #587099;
+  font-size: 0.6rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
 }
 .form-contact #form-contact .form-elements .select-input {
-  width: 40%;
+  width: 50%;
 }
 .form-contact #form-contact .form-elements #message {
-  width: 40%;
+  width: 50%;
 }
 .form-contact #form-contact .form-elements .newsletter {
   list-style-type: none;
@@ -35,20 +57,433 @@
   font-size: 0.6rem;
 }
 .form-contact #form-contact .form-elements .newsletter li {
-  color: darkgreen;
-  font-weight: bolder;
+  color: #7a871e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 .form-contact #form-contact .form-elements .checkbox {
   width: 9px;
   height: 9px;
 }
-.form-contact #form-contact .form-elements .signings {
+
+.wrapper .form-contact #form-contact .form-elements .signing {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e1c340;
+  color: #e55b13;
+  font-size: 0.5rem;
+}
+.wrapper .form-contact #form-contact .form-elements .signing:hover {
+  transform: scale(1.2);
+}
+footer {
+  background-color: #3f5576;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.iconShow {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 0;
+  height: 20px;
+  width: 100vw;
+}
+.iconShow .icon-link {
+  padding-top: 1.2rem;
+  text-decoration: none;
+  color: currentColor;
+}
+.iconShow .icon-link:hover {
+  transform: scale(1.2);
 }
 
-.button-submit {
-  text-align: center;
+.icon-contact {
+  margin-top: 9rem;
+}
+
+.icons {
+  margin-left: 0.9rem;
+  width: 18px;
+}
+
+.copyRight {
+  display: block;
+  margin-left: 0.5rem;
+  font-size: 0.6rem;
+  margin-top: 0.9rem;
+}
+@media screen and (min-width: 600px) and (max-width: 759px) {
+  .wrapper {
+    background-color: #2f3148;
+    height: 100vh;
+    opacity: 0.7;
+  }
+
+  .form-contact {
+    padding-bottom: 4rem;
+    height: 100%;
+    flex: 1;
+    width: 90%;
+  }
+  .form-contact legend {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    color: #8689ac;
+  }
+  .form-contact #form-contact {
+    background-color: #2f3148;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-contact #form-contact .form-elements {
+    margin-top: 0.6rem;
+    width: 70%;
+  }
+  .form-contact #form-contact .form-elements .select {
+    width: 80px;
+    display: inline-block;
+    color: #f6a21e;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .form-contact #form-contact .form-elements .sign-label {
+    width: 80px;
+    display: inline-block;
+    color: #587099;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+  .form-contact #form-contact .form-elements .select-input {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements #message {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements .newsletter {
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+  }
+  .form-contact #form-contact .form-elements .newsletter li {
+    color: #7a871e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .form-contact #form-contact .form-elements .checkbox {
+    width: 9px;
+    height: 9px;
+  }
+
+  .form-contact #form-contact .form-elements .signing {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 0.5rem;
+  }
+  .form-contact #form-contact .form-elements .signing :hover {
+    transform: scale(1.2);
+  }
+  footer {
+    background-color: #3f5576;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .iconShow .icon-link:hover {
+    transform: scale(1.2);
+  }
+
+  .icon-contact {
+    margin-top: 9rem;
+  }
+
+  .icons {
+    margin-left: 0.9rem;
+    width: 18px;
+  }
+
+  .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-top: 0.9rem;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  .wrapper {
+    background-color: #2f3148;
+    height: 100vh;
+    opacity: 0.7;
+  }
+
+  .form-contact {
+    padding-bottom: 4rem;
+    height: 100%;
+    flex: 1;
+    width: 90%;
+  }
+
+  .form-contact legend {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    color: #8689ac;
+  }
+  .form-contact #form-contact {
+    background-color: #2f3148;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-contact #form-contact .form-elements {
+    margin-top: 0.6rem;
+    width: 70%;
+  }
+  .form-contact #form-contact .form-elements .select {
+    width: 80px;
+    display: inline-block;
+    color: #f6a21e;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .form-contact #form-contact .form-elements .sign-label {
+    width: 80px;
+    display: inline-block;
+    color: #587099;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+  .form-contact #form-contact .form-elements .select-input {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements #message {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements .newsletter {
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+  }
+  .form-contact #form-contact .form-elements .newsletter li {
+    color: #7a871e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .form-contact #form-contact .form-elements .checkbox {
+    width: 9px;
+    height: 9px;
+  }
+
+  .form-contact #form-contact .form-elements .signing {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 0.5rem;
+  }
+  .form-contact #form-contact .form-elements .signing :hover {
+    transform: scale(1.2);
+  }
+  footer {
+    background-color: #3f5576;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .iconShow .icon-link:hover {
+    transform: scale(1.2);
+  }
+
+  .icon-contact {
+    margin-top: 9rem;
+  }
+
+  .icons {
+    margin-left: 0.9rem;
+    width: 18px;
+  }
+
+  .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-top: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    background-color: #2f3148;
+    height: 100vh;
+    opacity: 0.7;
+  }
+
+  .form-contact {
+    height: 100%;
+    flex: 1;
+    width: 100%;
+  }
+  .form-contact fieldset {
+    margin-right: 1rem;
+  }
+  .form-contact legend {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    color: #8689ac;
+  }
+  .form-contact #form-contact {
+    background-color: #2f3148;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-contact #form-contact .form-elements {
+    margin-top: 0.6rem;
+    width: 70%;
+  }
+  .form-contact #form-contact .form-elements .select {
+    width: 80px;
+    display: inline-block;
+    color: #f6a21e;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .form-contact #form-contact .form-elements .sign-label {
+    width: 80px;
+    display: inline-block;
+    color: #587099;
+    font-size: 0.6rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+  .form-contact #form-contact .form-elements .select-input {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements #message {
+    width: 50%;
+  }
+  .form-contact #form-contact .form-elements .newsletter {
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+  }
+  .form-contact #form-contact .form-elements .newsletter li {
+    color: #7a871e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .form-contact #form-contact .form-elements .checkbox {
+    width: 9px;
+    height: 9px;
+  }
+  .form-contact #form-contact .signings {
+    margin-bottom: 2rem;
+  }
+  .form-contact #form-contact .form-elements .signing {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 0.5rem;
+  }
+  .form-contact #form-contact .form-elements .signing :hover {
+    transform: scale(1.2);
+  }
+  footer {
+    background-color: #3f5576;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .iconShow .icon-link:hover {
+    transform: scale(1.2);
+  }
+
+  .icon-contact {
+    margin-top: 9rem;
+  }
+
+  .icons {
+    margin-left: 0.9rem;
+    width: 18px;
+  }
+
+  .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-top: 0.9rem;
+  }
 }

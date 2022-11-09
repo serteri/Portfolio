@@ -1,0 +1,844 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #2f3148;
+  height: 2.5rem;
+}
+.nav-bar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar nav img {
+  width: 48px;
+  margin: 0 1em;
+}
+.nav-bar nav .nav-lists {
+  width: 60%;
+}
+.nav-bar nav .nav-lists li {
+  font-size: 0.5rem;
+}
+.nav-bar nav .nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bar nav .nav-list li {
+  padding-left: 1.2rem;
+}
+.nav-bar nav .nav-list li a {
+  text-decoration: none;
+  color: #f6a21e;
+}
+.nav-bar nav .nav-list li a:hover {
+  color: #e55b13;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3rem;
+  width: 100%;
+}
+.main-content .contactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  background-color: #587099;
+  border-radius: 15%;
+  padding-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 300px;
+}
+.main-content .contactMe #salute {
+  font-size: 0.5rem;
+  color: black;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.main-content .contactMe #salute #firstSalute {
+  font-size: 1rem;
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+.main-content .contactMe #salute #name {
+  font-size: 1rem;
+}
+.main-content .contactMe #info {
+  color: #e55b13;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.5rem;
+}
+.main-content .contactMe .btn {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e1c340;
+  color: #e55b13;
+  font-size: 0.5rem;
+}
+.main-content .contactMe .btn:hover {
+  color: #e55b13;
+  transform: scale(1.3);
+}
+.main-content .signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  height: 300px;
+  background-color: #3f5576;
+  border-radius: 15%;
+  margin-right: 0.5rem;
+}
+.main-content .signUp .join-list {
+  margin-top: 0.6rem;
+  color: #e55b13;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.main-content .signUp #form-signUp .form-elements {
+  margin-top: 0.6rem;
+  width: 80%;
+}
+.main-content .signUp #form-signUp .form-elements .select {
+  width: 80px;
+  display: inline-block;
+  color: #f6a21e;
+  font-size: 0.6rem;
+  font-weight: bolder;
+}
+.main-content .signUp #form-signUp .form-elements .select-input {
+  width: 35%;
+}
+.main-content .signUp #form-signUp .form-elements .select-input::placeholder {
+  font-size: 0.4rem;
+}
+.main-content .signUp #form-signUp .form-elements .btn {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background-color: #e1c340;
+  color: #e55b13;
+  font-size: 0.5rem;
+}
+.main-content .signUp #form-signUp .form-elements .btn:hover {
+  color: #e55b13;
+  transform: scale(1.3);
+}
+
+.button-submit {
+  text-align: center;
+}
+
+.wrapper {
+  background-color: #2f3148;
+}
+.wrapper .blog {
+  height: 100%;
+  margin-top: 1.2rem;
+  width: 80%;
+  background-color: #2f3148;
+  flex: 1;
+}
+.wrapper .blog h1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 0.8rem;
+}
+.wrapper .blog .blogs .blog-examples {
+  list-style-type: none;
+}
+.wrapper .blog .blogs .blog-examples li {
+  display: block;
+  width: 80%;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.wrapper .blog .blogs .blog-examples li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #8689ac;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+}
+.wrapper .blog .blogs .blog-examples li a:hover {
+  transform: scale(1.1);
+}
+.wrapper .blog .blogs .blog-examples li a img {
+  width: 100%;
+  padding-top: 1.2rem;
+  display: block;
+}
+.wrapper .blog .blogs .blog-examples:last-child {
+  margin-bottom: 5rem;
+}
+
+footer {
+  background-color: #3f5576;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.iconShow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100vw;
+}
+.iconShow .icon-link {
+  padding-top: 1.2rem;
+  text-decoration: none;
+  color: currentColor;
+}
+.iconShow .icon-link:hover {
+  transform: scale(1.2);
+}
+
+.icon-contact {
+  margin-top: 9rem;
+}
+
+.icons {
+  margin-left: 0.9rem;
+  width: 18px;
+}
+
+.copyRight {
+  display: block;
+  margin-left: 0.5rem;
+  font-size: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 759px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-bar nav {
+    width: 100%;
+    background-color: #2f3148;
+    height: 2.3rem;
+  }
+  .nav-bar nav .logo a img {
+    width: 64px;
+    margin: 0 1em;
+  }
+  .nav-bar nav .nav-lists {
+    width: 80%;
+  }
+  .nav-bar nav .nav-lists li a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 0.7rem;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  .main-content .contactMe {
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-content .contactMe #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+  }
+  .main-content .contactMe #salute #firstSalute {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  .main-content .contactMe #salute #name {
+    font-size: 1rem;
+  }
+  .main-content .contactMe #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 0.9em;
+  }
+  .main-content .contactMe .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 0.7rem;
+  }
+  .main-content .contactMe .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .main-content .signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    margin-bottom: 1.2rem;
+  }
+  .main-content .signUp .join-list {
+    margin-top: 2rem;
+    color: #e55b13;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .main-content .signUp #form-signUp .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .main-content .signUp #form-signUp .form-elements .select {
+    width: 42%;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .select-input {
+    width: 40%;
+  }
+  .main-content .signUp #form-signUp .form-elements input::placeholder {
+    font-size: 0.8rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 0.7rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .wrapper {
+    background-color: #2f3148;
+  }
+  .wrapper .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: #2f3148;
+    flex: 1;
+  }
+  .wrapper .blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+  .wrapper .blog .blogs .blog-examples {
+    list-style-type: none;
+  }
+  .wrapper .blog .blogs .blog-examples li {
+    display: block;
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .wrapper .blog .blogs .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  .wrapper .blog .blogs .blog-examples li a:hover {
+    transform: scale(1.3);
+  }
+  .wrapper .blog .blogs .blog-examples li a img {
+    width: 50%;
+    padding-top: 0.6rem;
+    display: block;
+  }
+  .wrapper .blog .blogs .blog-examples:last-child {
+    margin-bottom: 5rem;
+  }
+  footer {
+    background-color: #3f5576;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  footer .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  footer .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  footer .iconShow .icon-link:hover {
+    transform: scale(1.4);
+  }
+  footer .iconShow .icon-link .icons {
+    margin-left: 0.9rem;
+    width: 32px;
+  }
+  footer .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-bar nav {
+    width: 100%;
+    background-color: #2f3148;
+    height: 2.3rem;
+  }
+  .nav-bar nav .logo a img {
+    width: 64px;
+    margin: 0 1em;
+  }
+  .nav-bar nav .nav-lists {
+    width: 80%;
+  }
+  .nav-bar nav .nav-lists li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 1.1rem;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  .main-content .contactMe {
+    margin-right: 5rem;
+  }
+  .main-content .contactMe #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+  }
+  .main-content .contactMe #salute #firstSalute {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  .main-content .contactMe #salute #name {
+    font-size: 1.2rem;
+  }
+  .main-content .contactMe #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+  }
+  .main-content .contactMe .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .main-content .contactMe .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .main-content .signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    margin-bottom: 1.2rem;
+  }
+  .main-content .signUp .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .main-content .signUp #form-signUp .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .main-content .signUp #form-signUp .form-elements .select {
+    width: 42%;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .select-input {
+    width: 40%;
+  }
+  .main-content .signUp #form-signUp .form-elements input::placeholder {
+    font-size: 0.8rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .join-list .select-input {
+    width: 50%;
+  }
+  .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: #2f3148;
+  }
+  .blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+  .blog .blogs .blog-examples {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog .blogs .blog-examples li {
+    width: 20%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .blog .blogs .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  .blog .blogs .blog-examples li a:hover {
+    transform: scale(1.2);
+    color: #e55b13;
+  }
+  .blog .blogs .blog-examples li a img {
+    width: 100%;
+    padding-top: 1.2rem;
+    display: block;
+  }
+  .blog .blogs .blog-examples:last-child {
+    margin-bottom: 2rem;
+  }
+  footer {
+    background-color: #3f5576;
+  }
+  footer .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  footer .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  footer .iconShow .icon-link:hover {
+    transform: scale(1.2);
+  }
+  footer .iconShow .icon-link .icons {
+    margin-left: 0.9rem;
+    width: 24px;
+  }
+  .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-bar nav {
+    width: 100%;
+    background-color: #2f3148;
+    height: 2.3rem;
+  }
+  .nav-bar nav .logo img {
+    width: 84px;
+    height: 72px;
+    margin: 0 1em;
+  }
+  .nav-bar nav .nav-lists {
+    width: 80%;
+  }
+  .nav-bar nav .nav-lists li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 1.1rem;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+  }
+  .main-content .contactMe {
+    margin-right: 5rem;
+    width: 50%;
+    background-color: #3f5576;
+    border-radius: 10%;
+  }
+  .main-content .contactMe #salute {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+  }
+  .main-content .contactMe #salute #firstSalute {
+    font-size: 1rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+  .main-content .contactMe #salute #name {
+    font-size: 1.2rem;
+  }
+  .main-content .contactMe #info {
+    color: rgb(238, 73, 8);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.3rem;
+  }
+  .main-content .contactMe .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .main-content .contactMe .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .main-content .signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    background-color: #587099;
+    border-radius: 10%;
+    margin-bottom: 1.2rem;
+  }
+  .main-content .signUp .join-list {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .main-content .signUp #form-signUp .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .main-content .signUp #form-signUp .form-elements .select {
+    width: 50%;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  }
+  .main-content .signUp #form-signUp .form-elements .select-input {
+    width: 45%;
+  }
+  .main-content .signUp #form-signUp .form-elements .select-input::placeholder {
+    font-size: 1rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #e1c340;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .main-content .signUp #form-signUp .form-elements .btn:hover {
+    color: #e55b13;
+    transform: scale(1.3);
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 85px;
+    background-color: #c3e0e5;
+    color: #e55b13;
+    font-size: 1rem;
+  }
+  .form-elements {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .form-elements .select {
+    width: 140px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .form-elements input::placeholder {
+    font-size: 0.9rem;
+  }
+  .form-elements .select-input {
+    width: 50%;
+  }
+  .wrapper .blog {
+    margin-top: 1.2rem;
+    width: 100%;
+    background-color: #2f3148;
+    flex: 1;
+  }
+  .wrapper .blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+  .wrapper .blog .blogs .blog-examples {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper .blog .blogs .blog-examples li {
+    width: 20%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .wrapper .blog .blogs .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  .wrapper .blog .blogs .blog-examples li a img {
+    width: 100%;
+    padding-top: 1.2rem;
+    display: block;
+  }
+  .wrapper .blog .blogs .blog-examples:last-child {
+    margin-bottom: 2rem;
+  }
+  footer {
+    background-color: #3f5576;
+  }
+  footer .iconShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+  }
+  footer .iconShow .icon-link {
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+  }
+  footer .iconShow .icon-link:hover {
+    transform: scale(1.6);
+  }
+  footer .iconShow .icon-link .icons {
+    margin-left: 0.9rem;
+    width: 32px;
+  }
+  .copyRight {
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=sthle.css.map */

@@ -21,102 +21,109 @@
         <section class="nav-bar">
             <nav>
                 <div class="logo">
-                    <a href="./">
+                    <a href="../index.html">
                         <img src="../images/logo1.png" alt="company logo">
                     </a>
                 </div>
                 <div class="nav-lists">
                     <ul class="nav-list">
                         <li>
-                            <a href="./">Home</a>
+                            <a href="../index.html">Home</a>
                         </li>
                         <li>
-                            <a href="./pages/aboutMe.html" target="_blank"> About Me</a>
+                            <a href="./aboutMe.html" target="_blank"> About Me</a>
                         </li>
                         <li>
-                            <a href="./pages/myExperience.html" target="_blank">Portfolio</a>
+                            <a href="./myExperience.html" target="_blank">Portfolio</a>
                         </li>
                         <li>
-                            <a href="./pages/contactMe.html" target="_blank">Contact me</a>
+                            <a href="./contactMe.html" target="_blank">Contact me</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </section>
         <!--Form cestion-->
-        <div class="form-contact">
-            <form id="form-contact">
-                <legend>Contact Me Form</legend>
-                <div class="form-elements">
-                    <label for="firstName" class="select">First Name :</label>
-                    <input
-                        type="text"
-                        name="firstName"
-                        id="firstName"
-                        placeholder="First Name"
-                        class="select-input"
-                    >
-                </div>
-                <div class="form-elements">
-                    <label for="lastName" class="select">Last Name :</label>
-                    <input
-                        type="text"
-                        name="lastName"
-                        id="lastName"
-                        placeholder="Last Name"
-                        class="select-input"
-                    >
-                </div>
-                <div class="form-elements">
-                    <label for="email" class="select">Email address :</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email address"
-                        class="select-input"
-                    >
-                </div>
-                <div class="form-elements">
-                    <label for="message" class="select">Message :</label>
-                    <textarea
-                        rows="3"
-                        cols="3"
-                        id="message"
-                        name="message"
-                        placeholder="Please enter your message here"
-                    ></textarea>
-                </div>
-                <div class="form-elements signings">
-                    <button class="signing btn">Send</button>
-                    <label for="newsletter" class="select">Want to join our Newsletter</label>
-                    <ul class="newsletter">
-                        <li>
+        <div class="wrapper">
+            <section class="form-contact">
+                <fieldset>
+                    <legend>Contact Me Form</legend>
+                    <form id="form-contact">
+                        <div class="form-elements">
+                            <label for="firstName" class="select">First Name :</label>
                             <input
-                                type="checkbox"
-                                name="newsletter"
-                                value="yes"
-                                class="select-input checkbox"
-                                checked
+                                type="text"
+                                name="firstName"
+                                id="firstName"
+                                placeholder="First Name"
+                                class="select-input"
                             >
-                            Yes
-                        </li>
-                        <li>
+                        </div>
+                        <div class="form-elements">
+                            <label for="lastName" class="select">Last Name :</label>
                             <input
-                                type="checkbox"
-                                name="newsletter"
-                                value="no"
-                                class="select-input checkbox"
+                                type="text"
+                                name="lastName"
+                                id="lastName"
+                                placeholder="Last Name"
+                                class="select-input"
                             >
-                            No
-                        </li>
-                    </li>
-                </ul>
-            </div>
-        </form>
+                        </div>
+                        <div class="form-elements">
+                            <label for="email" class="select">Email address :</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email address"
+                                class="select-input"
+                            >
+                        </div>
+                        <div class="form-elements">
+                            <label for="message" class="select">Message :</label>
+                            <textarea
+                                rows="2"
+                                cols="2"
+                                id="message"
+                                name="message"
+                                placeholder="Please enter your message here"
+                            ></textarea>
+                        </div>
+                        <div class="form-elements">
+                            <button class="signing btn">Send</button>
+                        </div>
+                        <div class="form-elements signings">
+                            <label for="newsletter" class="sign-label">Want to join our Newsletter</label>
+                            <ul class="newsletter">
+                                <li>
+                                    <input
+                                        type="radio"
+                                        name="newsletter"
+                                        value="yes"
+                                        class="select-input checkbox"
+                                        checked
+                                    >
+                                    Yes
+                                </li>
+                                <li>
+                                    <input
+                                        type="radio"
+                                        name="newsletter"
+                                        value="no"
+                                        class="select-input checkbox"
+                                    >
+                                    No
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
     </div>
     <!--Footer Section-->
-    <footer>
+    <footer style="  background-color: #3f5576;
+    width: 100%">
         <div class="iconShow">
             <a href="https://www.linkedin.com/in/serter-iyigunlu-18897955/" class="icon-link">
                 <i class="fa-brands fa-linkedin  icons"></i>

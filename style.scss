@@ -49,7 +49,7 @@
 .main-content {
   @include flex-box-center;
   margin-top: 0.3rem;
-
+  margin-bottom: 0.3rem;
   width: 100%;
   .contactMe {
     @include flex-box-center-column();
@@ -190,10 +190,10 @@ footer {
   @include flex-box-center-column-footer;
   width: 100%;
 
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  // position: absolute;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
 }
 .iconShow {
   @include flex-box-center();
@@ -321,13 +321,6 @@ footer {
     }
   }
 
-  .form-contact {
-    background-image: url(./images/contact.jpg);
-    background-size: cover;
-
-    width: 100%;
-    height: 100%;
-  }
   .btn {
     padding: 0.5rem;
     border-radius: 85px;
@@ -520,13 +513,6 @@ footer {
     }
   }
 
-  .form-contact {
-    background-image: url(./images/contact.jpg);
-    background-size: cover;
-
-    width: 100%;
-    height: 100%;
-  }
   .btn {
     padding: 0.5rem;
     border-radius: 85px;
@@ -714,13 +700,6 @@ footer {
     }
   }
 
-  .form-contact {
-    background-image: url(./images/contact.jpg);
-    background-size: cover;
-
-    width: 100%;
-    height: 100%;
-  }
   .btn {
     padding: 0.5rem;
     border-radius: 85px;

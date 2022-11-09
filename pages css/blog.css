@@ -1,8 +1,51 @@
+.wrapper-blog {
+  background-color: #2f3148;
+  height: 100vh;
+  opacity: 0.8;
+}
+#blog {
+  width: 100%;
+  background-color: #2f3148;
+}
+#blog h1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 0.8rem;
+}
+#blog .blogs-page .blog-examples {
+  list-style-type: none;
+}
+#blog .blogs-page .blog-examples li {
+  width: 60%;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+#blog .blogs-page .blog-examples li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #8689ac;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+}
+#blog .blogs-page .blog-examples li a:hover {
+  transform: scale(1.2);
+  color: #e55b13;
+}
+#blog .blogs-page .blog-examples li a img {
+  width: 100%;
+  padding-top: 1.2rem;
+  display: block;
+}
+#blog .blogs-page .blog-examples:last-child {
+  margin-bottom: 2rem;
+}
+
 .blogs {
   margin-top: 0.7rem;
   margin-left: 0.6rem;
 }
-.heading {
+.blogs .heading {
   display: inline-block;
   margin-bottom: 0.6rem;
 }
@@ -20,9 +63,47 @@
   margin-top: 0.6rem;
   text-align: justify;
 }
+
 /* Media Queries */
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
+  .blog {
+    width: 100%;
+    background-color: #2f3148;
+  }
+  .blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+  .blog .blogs-page .blog-examples {
+    list-style-type: none;
+  }
+  .blog .blogs-page .blog-examples li {
+    width: 60%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .blog .blogs-page .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  .blog .blogs-page .blog-examples li a:hover {
+    transform: scale(1.2);
+    color: #e55b13;
+  }
+  .blog .blogs-page .blog-examples li a img {
+    width: 100%;
+    padding-top: 1.2rem;
+    display: block;
+  }
+  .blog .blogs-page .blog-examples:last-child {
+    margin-bottom: 2rem;
+  }
   .blogs {
     margin-top: 2rem;
     margin-left: 1rem;
@@ -45,6 +126,43 @@
   }
 }
 @media screen and (min-width: 760px) and (max-width: 959px) {
+  #blog {
+    width: 100%;
+    background-color: #2f3148;
+  }
+  #blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+  #blog .blogs-page .blog-examples {
+    list-style-type: none;
+  }
+  #blog .blogs-page .blog-examples li {
+    width: 60%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  #blog .blogs-page .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  #blog .blogs-page .blog-examples li a:hover {
+    transform: scale(1.2);
+    color: #e55b13;
+  }
+  #blog .blogs-page .blog-examples li a img {
+    width: 100%;
+    padding-top: 1.2rem;
+    display: block;
+  }
+  #blog .blogs-page .blog-examples:last-child {
+    margin-bottom: 2rem;
+  }
   .blogs {
     margin-top: 2.4rem;
     margin-left: 1rem;
@@ -69,6 +187,51 @@
 }
 
 @media screen and (min-width: 960px) {
+  #blog {
+    width: 100%;
+    background-color: #2f3148;
+  }
+  #blog h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.8rem;
+  }
+
+  #blog .blogs-page .blog-examples {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #blog .blogs-page .blog-examples li {
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  #blog .blogs-page .blog-examples li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8689ac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  #blog .blogs-page .blog-examples li .link-blogs {
+    display: block;
+    width: 100%;
+  }
+  #blog .blogs-page .blog-examples li a:hover {
+    transform: scale(1.2);
+    color: #e55b13;
+  }
+  #blog .blogs-page .blog-examples li a img {
+    width: 100%;
+    padding-top: 1.2rem;
+    display: block;
+  }
+  #blog .blogs-page .blog-examples:last-child {
+    margin-bottom: 2rem;
+  }
   .blogs {
     margin-top: 2.8rem;
     margin-left: 1rem;

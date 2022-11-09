@@ -28,10 +28,13 @@
   align-items: center;
   flex: 1 1 0;
 }
-.experience {
+.general-info .experiences .experience {
   padding-bottom: 1.5rem;
   font-size: 1.5rem;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #8689ac;
 }
 #experience {
   font-family: "Montserrat", sans-serif;
@@ -85,8 +88,11 @@
 }
 
 #blogtitle {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #8689ac;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 .btn-blog {
   padding: 0.5rem;
