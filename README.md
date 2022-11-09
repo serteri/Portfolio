@@ -4,9 +4,17 @@
 
 This website cretated for job-opportunities. It is purpose to introduce myself as a web developer-software developer. I included my Resume, my working Portfolio and my background in the web site.
 
+## Website link
+
+[Portfolio website link](https://dapper-taffy-0aaf79.netlify.app)
+
+## Github link
+
+[Github link](https://github.com/serteri/Portfolio)
+
 <br>
 
-### This is a web site about Serter Iyigunlu who is a professional web designer. You can reach me throuh the web site and see my jobs.
+### This is a web site about Serter Iyigunlu who is a professional web designer. You can reach me throuh the web site and see my jobs.The purpose of this website is to express potential employer and show my experience and ability to create different approaches for creating websites,
 
  <br>
  I used mobile first approach. I developed the web site for mobile view first. Navigation bar has two main parts. First one is logo where located on the left side of the nav bar. Second part has Home , About me , Portfolio and Contact me links.
@@ -32,6 +40,211 @@ On the blog page, there are total five blog entries, with blog titles and images
 Each blog page has blog title, blog image and blog content.
 
 <br>
+
+## Site map
+
+### home page wireframes
+
+#### mobile view
+
+![home page mobile view](./wireframes-images/Home%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![home page tablet view](./wireframes-images/Home%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![home page desktop view](./wireframes-images/Home%20page%20tablet%20view.png)
+
+<br>
+
+### about-me page wireframes
+
+#### mobile view
+
+![about-me page mobile view](./wireframes-images/About%20me%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![about-me page tablet view](./wireframes-images/About%20me%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![about-me page desktop view](./wireframes-images/About%20me%20page%20desktop%20view.png)
+
+<br>
+
+### portfolio page wireframes
+
+#### mobile view
+
+![portfolio page mobile view](./wireframes-images/Portfolio%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![portfolio page tablet view](./wireframes-images/Portfolio%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![portfolio page desktop view](./wireframes-images/Portfolio%20page%20desktop%20view.png)
+
+<br>
+
+### contact-me page wireframes
+
+#### mobile view
+
+![contact-me page mobile view](./wireframes-images/Contact-me%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![contact-me page tablet view](./wireframes-images/Contact-me%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![contact-me page desktop view](./wireframes-images/Contact-me%20page%20desktop%20view.png)
+
+<br>
+
+### blog home page wireframes
+
+#### mobile view
+
+![blog home page mobile view](./wireframes-images/Blog%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog home page tablet view](./wireframes-images/Blog%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog home page desktop view](./wireframes-images/Blog%20page%20desktop%20view.png)
+
+<br>
+
+### blog-1 page wireframes
+
+#### mobile view
+
+![blog-1  page mobile view](./wireframes-images/Blog-1%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog-1 page tablet view](./wireframes-images/Blog-1%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog-1 page desktop view](./wireframes-images/Blog-1%20page%20desktop%20view.png)
+
+<br>
+
+### blog-2 page wireframes
+
+#### mobile view
+
+![blog-2  page mobile view](./wireframes-images/Blog-2%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog-2 page tablet view](./wireframes-images/Blog-2%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog-2 page desktop view](./wireframes-images/Blog-2%20page%20desktop%20view.png)
+
+<br>
+
+### blog-3 page wireframes
+
+#### mobile view
+
+![blog-3  page mobile view](./wireframes-images/Blog-3%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog-3 page tablet view](./wireframes-images/Blog-3%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog-3 page desktop view](./wireframes-images/Blog-3%20page%20desktop%20view.png)
+
+<br>
+
+### blog-4 page wireframes
+
+#### mobile view
+
+![blog-4  page mobile view](./wireframes-images/Blog-4%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog-4 page tablet view](./wireframes-images/Blog-4%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog-4 page desktop view](./wireframes-images/Blog-4%20page%20desktop%20view.png)
+
+<br>
+
+### blog-5 page wireframes
+
+#### mobile view
+
+![blog-5  page mobile view](./wireframes-images/Blog-5%20page%20mobile%20view.png)
+
+<br>
+
+#### tablet view
+
+![blog-5 page tablet view](./wireframes-images/Blog-5%20page%20tablet%20view.png)
+
+<br>
+
+#### desktop view
+
+![blog-5 page desktop view](./wireframes-images/Blog-5%20page%20desktop%20view.png)
+
+<br>
+
+
+
 
 ### Font-color choosing
 
