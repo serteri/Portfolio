@@ -45,208 +45,6 @@ Each blog page has blog title, blog image and blog content.
 
 <br>
 
-## Site map
-
-### home page wireframes
-
-#### mobile view
-
-![home page mobile view](./wireframes-images/Home%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![home page tablet view](./wireframes-images/Home%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![home page desktop view](./wireframes-images/Home%20page%20tablet%20view.png)
-
-<br>
-
-### about-me page wireframes
-
-#### mobile view
-
-![about-me page mobile view](./wireframes-images/About%20me%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![about-me page tablet view](./wireframes-images/About%20me%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![about-me page desktop view](./wireframes-images/About%20me%20page%20desktop%20view.png)
-
-<br>
-
-### portfolio page wireframes
-
-#### mobile view
-
-![portfolio page mobile view](./wireframes-images/Portfolio%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![portfolio page tablet view](./wireframes-images/Portfolio%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![portfolio page desktop view](./wireframes-images/Portfolio%20page%20desktop%20view.png)
-
-<br>
-
-### contact-me page wireframes
-
-#### mobile view
-
-![contact-me page mobile view](./wireframes-images/Contact-me%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![contact-me page tablet view](./wireframes-images/Contact-me%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![contact-me page desktop view](./wireframes-images/Contact-me%20page%20desktop%20view.png)
-
-<br>
-
-### blog home page wireframes
-
-#### mobile view
-
-![blog home page mobile view](./wireframes-images/Blog%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog home page tablet view](./wireframes-images/Blog%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog home page desktop view](./wireframes-images/Blog%20page%20desktop%20view.png)
-
-<br>
-
-### blog-1 page wireframes
-
-#### mobile view
-
-![blog-1  page mobile view](./wireframes-images/Blog-1%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog-1 page tablet view](./wireframes-images/Blog-1%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog-1 page desktop view](./wireframes-images/Blog-1%20page%20desktop%20view.png)
-
-<br>
-
-### blog-2 page wireframes
-
-#### mobile view
-
-![blog-2  page mobile view](./wireframes-images/Blog-2%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog-2 page tablet view](./wireframes-images/Blog-2%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog-2 page desktop view](./wireframes-images/Blog-2%20page%20desktop%20view.png)
-
-<br>
-
-### blog-3 page wireframes
-
-#### mobile view
-
-![blog-3  page mobile view](./wireframes-images/Blog-3%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog-3 page tablet view](./wireframes-images/Blog-3%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog-3 page desktop view](./wireframes-images/Blog-3%20page%20desktop%20view.png)
-
-<br>
-
-### blog-4 page wireframes
-
-#### mobile view
-
-![blog-4  page mobile view](./wireframes-images/Blog-4%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog-4 page tablet view](./wireframes-images/Blog-4%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog-4 page desktop view](./wireframes-images/Blog-4%20page%20desktop%20view.png)
-
-<br>
-
-### blog-5 page wireframes
-
-#### mobile view
-
-![blog-5  page mobile view](./wireframes-images/Blog-5%20page%20mobile%20view.png)
-
-<br>
-
-#### tablet view
-
-![blog-5 page tablet view](./wireframes-images/Blog-5%20page%20tablet%20view.png)
-
-<br>
-
-#### desktop view
-
-![blog-5 page desktop view](./wireframes-images/Blog-5%20page%20desktop%20view.png)
-
-<br>
-
 ### Font-color choosing
 
 #### I choosed Color Palette #4532 because I wanted my site give a serious expression. I choosed orange colour for link to highlight to links and also I used transform scale hover effect to make them bigger when hovering.
@@ -2411,34 +2209,34 @@ body {
 
 ### Home page mobile view
 
-![Home page mobile view](./screenshots/power%20point%20screens/home%20page%20mobile%20view-1.png)
+![Home page mobile view](./docs/screenshots/power%20point%20screens/home%20page%20mobile%20view-1.png)
 
-![Home page mobile view](./screenshots/power%20point%20screens/home%20page%20mobile%20view%20part1.png)
+![Home page mobile view](./docs/screenshots/power%20point%20screens/home%20page%20mobile%20view%20part1.png)
 
-![Home page mobile view](./screenshots/power%20point%20screens/homepage%20mobile%20view%20part-2.png)
+![Home page mobile view](./docs/screenshots/power%20point%20screens/homepage%20mobile%20view%20part-2.png)
 
-![Home page mobile view](./screenshots/power%20point%20screens/home%20page%20mobile%20view%20part-3.png)
+![Home page mobile view](./docs/screenshots/power%20point%20screens/home%20page%20mobile%20view%20part-3.png)
 
 ### Home page tablet view
 
-![Home page tablet view](./screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-1.png)
+![Home page tablet view](./docs/screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-1.png)
 
 <br>
 
-![Home page tablet view](./screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-2.png)
+![Home page tablet view](./docs/screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-2.png)
 
 <br>
 
-![Home page tablet view](./screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-3.png)
+![Home page tablet view](./docs/screenshots/power%20point%20screens/home%20page%20tablet%20view%20part-3.png)
 
 <br>
 
 ### Home page desktop view
 
-![Home page desktop view](./screenshots/power%20point%20screens/home%20page%20desktop%20view-1.png)
+![Home page desktop view](./docs/screenshots/power%20point%20screens/home%20page%20desktop%20view-1.png)
 <br>
 
-![Home page desktop view](./screenshots/power%20point%20screens/home%20pade%20desktop%20view-2.png)
+![Home page desktop view](./docs/screenshots/power%20point%20screens/home%20pade%20desktop%20view-2.png)
 
 <br>
 
@@ -2446,181 +2244,181 @@ body {
 
 ### About-me page mobile view
 
-![About-me page mobile view](./screenshots/power%20point%20screens/about-me%20page%20mobile%20view.png)
+![About-me page mobile view](./docs/screenshots/power%20point%20screens/about-me%20page%20mobile%20view.png)
 
 ### About-me page tablet view
 
-![About-me page mobile view](./screenshots/power%20point%20screens/about-me%20page%20tablet%20view.png)
+![About-me page mobile view](./docs/screenshots/power%20point%20screens/about-me%20page%20tablet%20view.png)
 
 ### About-me page desktop view
 
-![About-me page mobile view](./screenshots/power%20point%20screens/about%20me%20page%20desktop%20view.png)
+![About-me page mobile view](./docs/screenshots/power%20point%20screens/about%20me%20page%20desktop%20view.png)
 
 ## Portfolio Page
 
 ### Portfolio page mobile view
 
-![Portfolio page mobile view](./screenshots/power%20point%20screens/portfolio%20page%20mobile%20view-1.png)
+![Portfolio page mobile view](./docs/screenshots/power%20point%20screens/portfolio%20page%20mobile%20view-1.png)
 
 <br>
 
-![Portfolio page mobile view](./screenshots/power%20point%20screens/portolio%20page%20mobile%20view-2.png)
+![Portfolio page mobile view](./docs/screenshots/power%20point%20screens/portolio%20page%20mobile%20view-2.png)
 
 ### Portfolio page tablet view
 
-![Portfolio page tablet view](./screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-1.png)
+![Portfolio page tablet view](./docs/screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-1.png)
 
 <br>
 
-![Portfolio page tablet view](./screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-2.png)
+![Portfolio page tablet view](./docs/screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-2.png)
 
 ### Portfolio page desktop view
 
-![Portfolio page desktop view](./screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-1.png)
+![Portfolio page desktop view](./docs/screenshots/power%20point%20screens/Portfolio%20page%20tablet%20view-1.png)
 
 <br>
 
-![Portfolio page desktop view](./screenshots/power%20point%20screens/Portfolio%20page%20desktopt%20view-2.png)
+![Portfolio page desktop view](./docs/screenshots/power%20point%20screens/Portfolio%20page%20desktopt%20view-2.png)
 
 ### Contact-me page mobile view
 
-![Contact-me page mobile view](./screenshots/power%20point%20screens/contact%20me%20mobile%20view-1.png)
+![Contact-me page mobile view](./docs/screenshots/power%20point%20screens/contact%20me%20mobile%20view-1.png)
 
 <br>
 
-![Contact-me page mobile view](./screenshots/power%20point%20screens/contact%20me%20page%20mobile%20view-2.png)
+![Contact-me page mobile view](./docs/screenshots/power%20point%20screens/contact%20me%20page%20mobile%20view-2.png)
 
 ### Contact-me page tablet view
 
-![Contact-me page tablet view](./screenshots/power%20point%20screens/contact%20me%20page%20tablet%20view-1.png)
+![Contact-me page tablet view](./docs/screenshots/power%20point%20screens/contact%20me%20page%20tablet%20view-1.png)
 
 <br>
 
-![Contact-me page tablet view](./screenshots/power%20point%20screens/contact%20me%20page%20tablet%20view-2.png)
+![Contact-me page tablet view](./docs/screenshots/power%20point%20screens/contact%20me%20page%20tablet%20view-2.png)
 
 ### Contact-me page desktop view
 
-![Contact-me page desktop view](./screenshots/power%20point%20screens/contact%20me%20page%20desktop%20view-1.png)
+![Contact-me page desktop view](./docs/screenshots/power%20point%20screens/contact%20me%20page%20desktop%20view-1.png)
 
 <br>
 
-![Contact-me page desktop view](./screenshots/power%20point%20screens/contact%20me%20page%20desktop%20view-2.png)
+![Contact-me page desktop view](./docs/screenshots/power%20point%20screens/contact%20me%20page%20desktop%20view-2.png)
 
 ## Blog Page
 
 ### Bloge page mobile view
 
-![Blog home page mobile view](./screenshots/power%20point%20screens/Blog%20home%20page%20mobile%20view-1.png)
+![Blog home page mobile view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20mobile%20view-1.png)
 
 <br>
 
-![Blog home page mobile view](./screenshots/power%20point%20screens/Blog%20home%20page%20mobile%20view-2.png)
+![Blog home page mobile view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20mobile%20view-2.png)
 
 ### Bloge page tablet view
 
-![Blog home page tablet view](./screenshots/power%20point%20screens/Blog%20home%20page%20tablet%20view-1.png)
+![Blog home page tablet view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20tablet%20view-1.png)
 
 <br>
 
-![Blog home page tablet view](./screenshots/power%20point%20screens/Blog%20home%20page%20tablet%20view-2.png)
+![Blog home page tablet view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20tablet%20view-2.png)
 
 ### Bloge page desktop view
 
-![Blog home page desktop view](./screenshots/power%20point%20screens/Blog%20home%20page%20desktop%20view-1.png)
+![Blog home page desktop view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20desktop%20view-1.png)
 
 <br>
 
-![Blog home page desktop view](./screenshots/power%20point%20screens/Blog%20home%20page%20desktop%20view-2.png)
+![Blog home page desktop view](./docs/screenshots/power%20point%20screens/Blog%20home%20page%20desktop%20view-2.png)
 
 ## Indiviual blog views
 
 ### Blog-1 mobile view
 
-![Blog-1 home page mobile view](./screenshots/power%20point%20screens/blog-1%20page%20mobile%20view.png)
+![Blog-1 home page mobile view](./docs/screenshots/power%20point%20screens/blog-1%20page%20mobile%20view.png)
 
 <br>
 
 ### Blog-1 tablet view
 
-![Blog-1 home page tablet view](./screenshots/power%20point%20screens/blog-1%20page%20tablet%20view.png)
+![Blog-1 home page tablet view](./docs/screenshots/power%20point%20screens/blog-1%20page%20tablet%20view.png)
 
 <br>
 
 ### Blog-1 desktop view
 
-![Blog-1 home page desktop view](./screenshots/power%20point%20screens/blog-1%20page%20desktop%20view.png)
+![Blog-1 home page desktop view](./docs/screenshots/power%20point%20screens/blog-1%20page%20desktop%20view.png)
 
 <br>
 
 ### Blog-2 mobile view
 
-![Blog-2 home page mobile view](./screenshots/power%20point%20screens/blog-2%20page%20mobile%20view.png)
+![Blog-2 home page mobile view](./docs/screenshots/power%20point%20screens/blog-2%20page%20mobile%20view.png)
 
 <br>
 
 ### Blog-2 tablet view
 
-![Blog-2 home page tablet view](./screenshots/power%20point%20screens/blog-2%20page%20tablet%20view.png)
+![Blog-2 home page tablet view](./docs/screenshots/power%20point%20screens/blog-2%20page%20tablet%20view.png)
 
 <br>
 
 ### Blog-2 desktop view
 
-![Blog-2 home page desktop view](./screenshots/power%20point%20screens/blog-2%20page%20desktop%20view.png)
+![Blog-2 home page desktop view](./docs/screenshots/power%20point%20screens/blog-2%20page%20desktop%20view.png)
 
 <br>
 
 ### Blog-3 mobile view
 
-![Blog-3 home page mobile view](./screenshots/power%20point%20screens/blog-3%20page%20mobile%20view.png)
+![Blog-3 home page mobile view](./docs/screenshots/power%20point%20screens/blog-3%20page%20mobile%20view.png)
 
 <br>
 
 ### Blog-3 tablet view
 
-![Blog-3 home page tablet view](./screenshots/power%20point%20screens/blog-3%20page%20tablet%20view.png)
+![Blog-3 home page tablet view](./docs/screenshots/power%20point%20screens/blog-3%20page%20tablet%20view.png)
 
 <br>
 
 ### Blog-3 desktop view
 
-![Blog-3 home page desktop view](./screenshots/power%20point%20screens/blog-3%20page%20desktop%20view.png)
+![Blog-3 home page desktop view](./docs/screenshots/power%20point%20screens/blog-3%20page%20desktop%20view.png)
 
 <br>
 
 ### Blog-4 mobile view
 
-![Blog-4 home page mobile view](./screenshots/power%20point%20screens/blog-4%20page%20mobile%20view.png)
+![Blog-4 home page mobile view](./docs/screenshots/power%20point%20screens/blog-4%20page%20mobile%20view.png)
 
 <br>
 
 ### Blog-4 tablet view
 
-![Blog-4 home page tablet view](./screenshots/power%20point%20screens/blog-4%20page%20tablet%20view.png)
+![Blog-4 home page tablet view](./docs/screenshots/power%20point%20screens/blog-4%20page%20tablet%20view.png)
 
 <br>
 
 ### Blog-4 desktop view
 
-![Blog-4 home page desktop view](./screenshots/power%20point%20screens/blog-4%20page%20desktop%20view.png)
+![Blog-4 home page desktop view](./docs/screenshots/power%20point%20screens/blog-4%20page%20desktop%20view.png)
 
 <br>
 
 ### Blog-5 mobile view
 
-![Blog-5 home page mobile view](./screenshots/power%20point%20screens/blog-5%20page%20mobile%20view.png)
+![Blog-5 home page mobile view](./docs/screenshots/power%20point%20screens/blog-5%20page%20mobile%20view.png)
 
 <br>
 
 ### Blog-5 tablet view
 
-![Blog-5 home page tablet view](./screenshots/power%20point%20screens/blog-5%20page%20tablet%20view.png)
+![Blog-5 home page tablet view](./docs/screenshots/power%20point%20screens/blog-5%20page%20tablet%20view.png)
 
 <br>
 
 ### Blog-5 desktop view
 
-![Blog-5 home page desktop view](./screenshots/power%20point%20screens/blog-5%20page%20desktop%20view.png)
+![Blog-5 home page desktop view](./docs/screenshots/power%20point%20screens/blog-5%20page%20desktop%20view.png)
 
 <br>
 
