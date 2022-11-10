@@ -12,6 +12,10 @@ This website cretated for job-opportunities. It is purpose to introduce myself a
 
 [Github link](https://github.com/serteri/Portfolio)
 
+## Video Link
+
+[Youtube video](https://youtu.be/fsPKO6CoasM)
+
 <br>
 
 ### This is a web site about Serter Iyigunlu who is a professional web designer. You can reach me throuh the web site and see my jobs.The purpose of this website is to express potential employer and show my experience and ability to create different approaches for creating websites,
@@ -242,9 +246,6 @@ Each blog page has blog title, blog image and blog content.
 ![blog-5 page desktop view](./wireframes-images/Blog-5%20page%20desktop%20view.png)
 
 <br>
-
-
-
 
 ### Font-color choosing
 
@@ -2622,3 +2623,90 @@ body {
 ![Blog-5 home page desktop view](./screenshots/power%20point%20screens/blog-5%20page%20desktop%20view.png)
 
 <br>
+
+## Wireframes
+
+<br>
+
+### Home page wireframes
+
+![Mobile](./docs/wireframes-images/Home%20page%20mobile%20view.png)
+
+<br>
+
+![Tablet](./docs/wireframes-images/Home%20page%20tablet%20view.png)
+
+<br>
+
+![Desktop](./docs/wireframes-images/Home%20page%20desktop%20view.png)
+
+### About me page wireframes
+
+![Mobile](./docs/wireframes-images/About%20me%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/About%20me%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/About%20me%20page%20desktop%20view.png)
+
+### Portfolio page wireframes
+
+![Mobile](./docs/wireframes-images/Portfolio%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Portfolio%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Portfolio%20page%20desktop%20view.png)
+
+### Contact me page wireframes
+
+![Mobile](./docs/wireframes-images/Contact-me%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Contact-me%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Contact-me%20page%20desktop%20view.png)
+
+### Blog home page wireframes
+
+![Mobile](./docs/wireframes-images/Blog%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Blog%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog%20page%20desktop%20view.png)
+
+### Blog-1 page wireframes
+
+![Mobile](./docs/wireframes-images/Blog-1%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Blog-1%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog-1%20page%20desktop%20view.png)
+
+### Blog-2 page wireframes
+
+![Mobile](./docs/wireframes-images/Blog-2%20page%20mobile%20view.png)
+![Tablet](./docs/wireframes-images/Blog-2%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog-2%20page%20desktop%20view.png)
+
+### Blog-3 page wireframes
+
+![Mobile](./docs/wireframes-images/Blog-3%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Blog-3%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog-3%20page%20desktop%20view.png)
+
+### Blog-4 page wireframes
+
+![Mobile](./docs/wireframes-images/Blog-4%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Blog-4%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog-4%20page%20desktop%20view.png)
+
+### Blog-5 page wireframes
+
+![Mobile](./docs/wireframes-images/Blog-5%20page%20mobile%20view.png)
+
+![Tablet](./docs/wireframes-images/Blog-5%20page%20tablet%20view.png)
+
+![Desktop](./docs/wireframes-images/Blog-5%20page%20desktop%20view.png)
